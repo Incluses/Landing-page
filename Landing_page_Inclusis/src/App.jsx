@@ -1,4 +1,4 @@
-import NavScrollExample from "./NavBar"
+import NavScrollExample from "./components/navbar/NavBar"
 
 function App() {
   return (
