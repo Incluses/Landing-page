@@ -6,7 +6,7 @@
 }
 
 #sobrenos {
-    font-weight: larger;
+    font-weight: larger !important;
 }
 
 #acessorestrito {
@@ -21,6 +21,6 @@
 }
 
 #logo {
-    width: 110px;
-    margin-right: 30px;
+    width: 110px !important;
+    margin-right: 30px !important;
 }

@@ -1,11 +1,13 @@
-import NavScrollExample from "./NavBar"
+import NavScrollExample from "./components/navbar/NavBar.jsx";
+import Introducao from "./components/introducao/Introducao.jsx"
 
 function App() {
   return (
   <>
-  <NavScrollExample />
+    <NavScrollExample />
+    <Introducao />
   </>
   )
 }
 
-export default App
+export default App;
