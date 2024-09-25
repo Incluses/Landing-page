@@ -1,4 +1,4 @@
-img {
-    width: 1rem !important; 
-    height: 1rem !important; 
+#imagem {
+    width: 100% !important; 
+    height: 850px !important; 
 }

@@ -13,7 +13,7 @@
     padding: 8px 15px !important;
     color: #0000F9 !important;
     border-color: #0000F9;
-} 
+}   
 #acessorestrito:hover {
     background-color: #0000F9 !important;
     color: white !important;
@@ -22,5 +22,6 @@
 
 #logo {
     width: 110px !important;
+    height: 35px !important;
     margin-right: 30px !important;
 }
