@@ -1,0 +1,14 @@
+.botao{
+    padding-top:6%;
+    padding-top:6%;
+    width: fit-content;
+    padding-left: 80%;
+    padding-right: 80%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-style: bold;
+    cursor: pointer;
+    user-select: none;
+}
