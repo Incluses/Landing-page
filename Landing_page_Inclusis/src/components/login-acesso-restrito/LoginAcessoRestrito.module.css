@@ -2,15 +2,18 @@
 
 .geral{
     margin: 0;
+    padding: 0;
     background-color: whitesmoke;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .img_fundo{
     width: 100%;
-    height: 100%;
+    height: 130%;
     position: absolute;
 }
 
@@ -20,16 +23,18 @@
 
 .card{
     background-color: white;
-    margin-top: 5%;
+    margin-top: 3%;
     height: 40%;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
     display: flex;
-    align-items: center;
     flex-direction: column;
     z-index: 1;
     border-radius: 15px;
-    box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.1);
-    padding-left: 10%;
-    padding-right: 10%; 
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.2);
+     
+    justify-content: center;
 }
 
 #titulo{
@@ -55,11 +60,12 @@
 }
 
 #inputs{
-    width: 200%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     margin-top: 13%;
     gap: 20px;
+    margin-left: 1%;
 }
 
 .plus{
@@ -74,11 +80,10 @@
 }
 
 #texto1{
+    margin-top: 5px;
     font-family: "Palanquin", sans-serif;
     font-weight: 400;
     font-style: normal;
-    position: absolute;
-    margin-top: 36%;
 }
 
 #texto2{
@@ -86,7 +91,64 @@
     font-weight: 600;
     font-style: bold;
     display: block;
-    font-size: 20px;
-    position: absolute;
-    margin-top: 38%;
+    font-size: 23px;
+    margin-top: -9px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    width: 230px;
+}
+
+.termos{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+   
+    z-index: 1;
+    
+}
+
+
+@media screen and (max-width: 801px){
+    .card{
+        width: 300px;
+        height: 500px;
+        margin-top: 70px;
+    }
+
+    .img_fundo{
+        width: 100%;
+        height: 800px;
+    }
+
+    .termos{
+        width: 300px;
+    }
+
+    #texto1{
+        font-size: 14px;
+    }
+
+    #texto2{
+        font-size: 17px;
+    }
+
+    #titulo{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    #subtitulo{
+        font-size: 20px;
+    }
+
 }

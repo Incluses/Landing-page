@@ -17,3 +17,18 @@
     font-style: normal;
     opacity: 0.5;
 }
+
+@media screen and (max-width: 801px){
+    .input{
+        width: 280px;
+        margin-right: 10%;
+        padding: 12px;
+        padding-left: 25px;
+        font-size: 14px;
+        opacity: 0.5;
+        border-radius: 10px;
+        user-select: none;
+    }
+    
+ 
+}

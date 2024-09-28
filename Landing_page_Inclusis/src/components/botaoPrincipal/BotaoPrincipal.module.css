@@ -12,3 +12,10 @@
     cursor: pointer;
     user-select: none;
 }
+
+@media screen and (max-width: 801px){
+   .botao{
+    padding-left: 122px;
+    padding-right: 122px;
+   }
+}
