@@ -13,10 +13,10 @@
     user-select: none;
 }
 
-@media screen and (max-width: 801px){
-   .botao{
-    padding-left: 60%;
-    padding-right: 60%;
+@media screen and (max-width: 812px){
+   .botao{ 
+    padding-left:130px;
+    padding-right: 130px;
     margin-left: 13%;
    }
 }
