@@ -1,4 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Palanquin';
+}
+
 #imagem {
     width: 100% !important; 
-    height: 850px !important; 
+    height: 850px !important;
+    border-bottom: 1px solid #70B3FF;
+}
+
+* {
+    font-weight: 600;
+}
+
+#maisOportu {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    top: 165px;
+    left: 630px;
+}
+
+#imgPessoas {
+    position: absolute;
+    top: 163px;
+    left: 580px;
+    width: 40px !important; 
+    height: 30px !important;
+    font-weight: bolder;
+}
+
+#tituloIntrodu {
+    position: absolute;
+    font-size: 48px;
+    top: 230px;
+    left: 500px;
+}
+
+#tituloIntrodu2 {
+    position: absolute;
+    font-size: 48px;
+    top: 300px;
+    left: 430px;
+}
+
+#tituloIntrodu3 {
+    position: absolute;
+    font-size: 48px;
+    top: 368px;
+    left: 500px;
+}
+
+#tituloIntrodu4 {
+    position: absolute;
+    font-size: 48px;
+    top: 440px;
+    left: 668px;
+}
+
+span {
+    color: #2B46D3;
+}
+
+span > span {
+    color: #782CD4;
+}
+
+#botao {
+    position: absolute;
+    background-color: #782CD4;
+    border-color: #782CD4;
+    padding: 15px 33px;
+    z-index: 1;
+    top: 550px;
+    left: 675px;
+    border-radius: 12px;
+}
+
+#botao:hover {
+    background-color: #480b93;
+    border-color: #480b93;
 }
