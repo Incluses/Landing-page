@@ -7,11 +7,12 @@
 #imagem {
     width: 100% !important; 
     height: 850px !important;
-    border-bottom: 1px solid #70B3FF;
+
 }
 
 * {
     font-weight: 600;
+    text-align: center;
 }
 
 #maisOportu {
@@ -82,4 +83,20 @@ span > span {
 #botao:hover {
     background-color: #480b93;
     border-color: #480b93;
+}
+
+#divFacaCursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #70B3FF;
+}
+
+#facaCursos {
+    background-color: #E8F3FF;
+    color: #2C46D1;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
