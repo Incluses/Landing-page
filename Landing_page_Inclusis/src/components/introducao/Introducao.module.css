@@ -2,63 +2,46 @@
 
 * {
     font-family: 'Palanquin';
-}
-
-#imagem {
-    width: 100% !important; 
-    height: 850px !important;
-
-}
-
-* {
     font-weight: 600;
     text-align: center;
 }
 
-#maisOportu {
-    position: absolute;
-    font-size: 14px;
+#imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px !important;
+    background-image: url('src/assets/Group 168.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#introdu {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
     font-weight: bold;
     color: black;
-    top: 165px;
-    left: 630px;
+    align-items: center;
+    justify-content: center;
+}
+
+#maisOportu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 330px;
+}
+
+#maisOportu > p{
+    margin-top: 2px;
+    margin-left: 5px;
 }
 
 #imgPessoas {
-    position: absolute;
-    top: 163px;
-    left: 580px;
-    width: 40px !important; 
+    width: 45px !important; 
     height: 30px !important;
-    font-weight: bolder;
-}
-
-#tituloIntrodu {
-    position: absolute;
-    font-size: 48px;
-    top: 230px;
-    left: 500px;
-}
-
-#tituloIntrodu2 {
-    position: absolute;
-    font-size: 48px;
-    top: 300px;
-    left: 430px;
-}
-
-#tituloIntrodu3 {
-    position: absolute;
-    font-size: 48px;
-    top: 368px;
-    left: 500px;
-}
-
-#tituloIntrodu4 {
-    position: absolute;
-    font-size: 48px;
-    top: 440px;
-    left: 668px;
 }
 
 span {
@@ -70,14 +53,14 @@ span > span {
 }
 
 #botao {
-    position: absolute;
     background-color: #782CD4;
     border-color: #782CD4;
     padding: 15px 33px;
     z-index: 1;
-    top: 550px;
-    left: 675px;
     border-radius: 12px;
+    margin-top: 8px;
+    margin-bottom: 100px;
+    font-size: 20px;
 }
 
 #botao:hover {
@@ -97,6 +80,50 @@ span > span {
     color: #2C46D1;
     padding: 15px 40px;
     border-radius: 50px;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+}
+
+@media (max-width: 768px) {
+    #introdu > p {
+      font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #maisOportu {
+        width: 250px; 
+        font-size: 10px;
+        margin-top: 15px;
+        margin-right: 5px;
+        & p {
+            margin-top: 5px;
+        }
+        & #imgPessoas {
+            width: 35px !important; 
+            height: 25px !important;
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #botao {
+        padding: 12px 25px;
+        font-size: 10px;
+        border-radius: 12px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #divFacaCursos {
+        padding: 8px 8px;
+        font-size: 9px;
+        border-radius: 12px !important;
+
+        & p {
+            margin-top: 7px;
+            margin-bottom: 25px;
+        }
+    }
 }
