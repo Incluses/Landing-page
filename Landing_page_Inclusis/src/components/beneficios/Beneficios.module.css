@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Palanquin';
+}
+
 #divBeneficios{
     display: flex;
     align-items: center;
@@ -30,64 +36,52 @@
     margin-top: 1px;  
 }
 
-.conteudoDirecionado{
+#topicos {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: start;
+    font-weight: 700;
     margin-left: 60px;
+    margin-top: 35px;
 }
 
-#num1 span{
+.pMae {
+    margin-bottom: 40px ;
+    color: #2C46D1;
+    font-size: 20px;
+}
+
+.nums {
+    display: inline;
     background-color: #2C46D1;
-    color: #E8F3FF;
-    border-radius: 50%;
-    margin-right: 15px;
-    margin-top: 12px;
-    width: 25px;
-    height: 25px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-#num2 span{
-    background-color: #2C46D1;
-    color: #E8F3FF;
-    border-radius: 50%;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-
-}
-#num3 span{
-    background-color: #2C46D1;
-    color: #E8F3FF;
-    border-radius: 50%;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-
+    border-radius: 100%;
+    padding: 0px 13px;
+    color: white;
+    padding-bottom: 2.5px;
+    margin-right: 12px;
 }
 
-#conteudoDemandas {
-    text-align: start;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 60px;
-    margin-top: 20px;
+.conteudo {
+    color: #363636;
+    font-size: 18px;
     margin-bottom: 0;
 }
 
-#areaEspecifica{
-    text-align: start;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 60px;
-    margin-top: 1px;  
+div > hr{
+    color: #70B3FF;
+    padding: 1px;
+    width: 35%;
+}
+
+#imgPessoa {
+    position: absolute;
+    left: 800px;
+    top: 1170px;
+    z-index: 1;
+}
+
+#border {
+    margin-top: 100px;
+    width: 100%;
+    border-bottom: 1px solid #70B3FF;
 }

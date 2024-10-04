@@ -9,21 +9,24 @@ function Beneficios(){
 
             <p id={style.oportuEmpre}>Além das oportunidades de emprego,</p>
             <p id={style.fazerCursos}>por que fazer cursos na Incluses?</p>
+            <div id={style.topicos}>
+                <img src="src/assets/Group 175.png" alt="uma pessoa" id={style.imgPessoa}/>
+                <p className={style.pMae}><p className={style.nums}>1</p>     Conteúdos direcionados</p>
+                <p className={style.conteudo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+                <p className={style.conteudo}>do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr />
 
-            <div className={style.conteudoDirecionado}>
-                <p id={style.num1}><span>1</span>   Conteúdos direcionados</p>
+                <p className={style.pMae}><p className={style.nums}>2</p>     Grande relevância curricular</p>
+                <p className={style.conteudo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+                <p className={style.conteudo}>do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr />
+
+                <p className={style.pMae}><p className={style.nums}>3</p>     Mais conforto e transparência</p>
+                <p className={style.conteudo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed </p>
+                <p className={style.conteudo}>do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr />
             </div>
-            
-            <p id={style.conteudoDemandas}>Os cursos são planejados para atender às demandas do mercado,</p>
-            <p id={style.areaEspecifica}>focando em habilidades práticas e específicas de cada área.</p>
-
-
-            <div className={style.conteudoDirecionado}>
-                <p id={style.num2}><span>2</span>   Grande relevância curricular</p>
-            </div>
-
-            <div className={style.conteudoDirecionado}>
-                <p id={style.num3}><span>3</span>   Mais conforto e transparência</p>
+            <div id={style.border}>
             </div>
         </>
     )
