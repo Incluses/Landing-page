@@ -28,14 +28,6 @@
     margin-bottom: 0;
 }
 
-#fazerCursos{
-    text-align: start;
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: 60px;
-    margin-top: 1px;  
-}
-
 #topicos {
     display: flex;
     flex-direction: column;
@@ -43,6 +35,12 @@
     font-weight: 700;
     margin-left: 60px;
     margin-top: 35px;
+}
+
+#divMae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pMae {
@@ -55,7 +53,7 @@
     display: inline;
     background-color: #2C46D1;
     border-radius: 100%;
-    padding: 0px 13px;
+    padding: 0px 14px;
     color: white;
     padding-bottom: 2.5px;
     margin-right: 12px;
@@ -67,21 +65,74 @@
     margin-bottom: 0;
 }
 
-div > hr{
+#topicos > hr{
+    width: 78%;
     color: #70B3FF;
-    padding: 1px;
-    width: 35%;
-}
-
-#imgPessoa {
-    position: absolute;
-    left: 800px;
-    top: 1170px;
-    z-index: 1;
+    margin-bottom: 50px;
 }
 
 #border {
-    margin-top: 100px;
+    margin-top: 35px;
     width: 100%;
     border-bottom: 1px solid #70B3FF;
+}
+
+#imgPessoa {
+    margin-top: 200px;
+    height: 550px;
+}
+
+@media (max-width: 1500px) {
+    #divBeneficios{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    #oportuEmpre {
+        font-size: 1.8rem;
+    }
+
+    #imgPessoa {
+        width: 350px;
+        height: 300px;
+    }
+
+    .pMae {
+        font-size: 18px;
+    }
+
+    .conteudo {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 904px) {
+    #divBeneficios{
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 12px;
+    }
+
+    #oportuEmpre {
+        font-size: 0.8rem;
+    }
+
+    #imgPessoa {
+        width: 250px;
+        height: 200px;
+        margin-bottom: 90px;
+    }
+
+    .pMae {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .conteudo {
+        font-size: 8px;
+    }
+
+    .nums {
+        padding: 0px 7px;
+    }
 }

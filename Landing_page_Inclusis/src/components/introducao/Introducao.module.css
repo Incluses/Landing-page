@@ -86,12 +86,12 @@ span > span {
     margin-bottom: 38px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 904px) {
     #introdu > p {
         font-size: 1.8rem;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 904px) {
     #maisOportu {
         width: 220px; 
         margin-top: 15px;
@@ -107,7 +107,7 @@ span > span {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 904px) {
     #botao {
         padding: 12px 25px;
         font-size: 10px;
@@ -115,7 +115,7 @@ span > span {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 904px) {
     #divFacaCursos {
         padding: 8px 8px;
         font-size: 55%;
@@ -127,3 +127,4 @@ span > span {
         }
     }
 }
+
