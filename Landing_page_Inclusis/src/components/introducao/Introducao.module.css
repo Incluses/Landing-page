@@ -19,7 +19,8 @@
 #introdu {
     display: flex;
     flex-direction: column;
-    font-size: 50px;
+    font-size: 3rem;
+    transition: font-size 0.5s ease-in-out;
     font-weight: bold;
     color: black;
     align-items: center;
@@ -35,6 +36,7 @@
 }
 
 #maisOportu > p{
+    font-size: 0.9rem;
     margin-top: 2px;
     margin-left: 5px;
 }
@@ -84,30 +86,28 @@ span > span {
     margin-bottom: 38px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #introdu > p {
-      font-size: 30px;
+        font-size: 1.8rem;
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #maisOportu {
-        width: 250px; 
-        font-size: 10px;
+        width: 220px; 
         margin-top: 15px;
         margin-right: 5px;
         & p {
+            font-size: 0.6rem;
             margin-top: 5px;
         }
         & #imgPessoas {
             width: 35px !important; 
             height: 25px !important;
-            margin-left: 20px;
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #botao {
         padding: 12px 25px;
         font-size: 10px;
@@ -115,10 +115,10 @@ span > span {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #divFacaCursos {
         padding: 8px 8px;
-        font-size: 9px;
+        font-size: 55%;
         border-radius: 12px !important;
 
         & p {
