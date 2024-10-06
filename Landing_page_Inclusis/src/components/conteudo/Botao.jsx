@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import style from './Botao.module.css';
 
-function Botao() {
+function Botao({ onClick }) {
     return (
         <>
-            <Button variant='primary'>Primary</Button>{' '}
+            <Button onClick={onClick} className={style.botaoUm} variant='primary'>Usuário</Button>{' '}
         </>
     )
 }

@@ -1,0 +1,54 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    position: relative;
+}
+
+#botoes {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#divBeneficios {
+    width: 100px;
+    height: 35.78px;
+    background-color: #e8f3ff;  
+    border-radius: 35.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#beneficios {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2C46D1;
+}
+
+.divMaeUsuario {
+    background-color: #E8F3FF;
+    width: 1194px;
+    height: 573px;
+    border-radius: 44px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMaeEmpresa {
+    background-color: #e9d8ff;
+    width: 1194px;
+    height: 573px;
+    border-radius: 44px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

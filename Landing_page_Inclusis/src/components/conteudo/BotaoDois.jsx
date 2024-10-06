@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import style from './BotaoDois.module.css';
 
-function BotaoDois() {
+function BotaoDois({ onClick }) {
     return (
         <>
-            <Button variant='primary'>Primary</Button>{' '}
+            <Button onClick={onClick}  className={style.botaoDois}variant='primary'>Empresa</Button>{' '}
         </>
     )
 }
