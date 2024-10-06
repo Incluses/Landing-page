@@ -17,18 +17,22 @@
 
 #divBeneficios {
     width: 100px;
-    height: 35.78px;
     background-color: #e8f3ff;  
     border-radius: 35.5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 10px; 
+    right: 155px;
+    padding-top: 10px;
 }
 
 #beneficios {
     font-weight: 700;
     font-size: 16px;
     color: #2C46D1;
+    text-align: center;
 }
 
 .divMaeUsuario {
@@ -38,8 +42,10 @@
     border-radius: 44px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; 
     align-items: center;
+    padding-left: 50px; 
+
 }
 
 .divMaeEmpresa {
@@ -49,6 +55,13 @@
     border-radius: 44px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; 
     align-items: center;
+    padding-right: 50px;
+}
+
+#imagemOrganizacao {
+    margin-left: 20px;
+    width: 513.68px;
+    height: 325.49px;
 }
