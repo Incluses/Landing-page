@@ -1,12 +1,12 @@
 import Button from 'react-bootstrap/Button';
-import style from './Botao.module.css'
+import style from './Botao.module.css';
 
-function OutlineTypesExample() {
-  return (
-    <>
-      <Button variant="outline-light" id={style.botao}>Light</Button>{' '}
-    </>
-  );
+function Botao() {
+    return (
+        <>
+            <Button variant='primary'>Primary</Button>{' '}
+        </>
+    )
 }
 
-export default OutlineTypesExample;
+export default Botao;
