@@ -1,5 +1,5 @@
-import Botao from "./components/botao/Botao.jsx";
-import BotaoDois from "./components/botao/BotaoDois.jsx"
+import Botao from "./Botao.jsx";
+import BotaoDois from "./BotaoDois.jsx"
 import style from './Conteudo.module.css';
 
 function Conteudo(){
