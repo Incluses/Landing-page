@@ -1,16 +1,15 @@
-import NavScrollExample from "./components/navbar/NavBar.jsx";
-import Introducao from "./components/introducao/Introducao.jsx"
-import Beneficios from "./components/beneficios/Beneficios.jsx";
-import Conteudo from "./components/conteudo/Conteudo.jsx";
+import Main from './components/main/main.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-  <>
-    <NavScrollExample />
-    <Introducao />
-    <Beneficios />
-    <Conteudo />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main/>}/>
+        <Route path="/login" element={<LoginAcessoRestrito/>}/>
+        <Route path="/graficos" element={<Grafic/>}/>
+      </Routes>
+    </Router>
   )
 }
 
