@@ -27,12 +27,12 @@ function Conteudo() {
                 <div>
                     {botaoSelecionado === 'usuario' && (
                         <div className={style.divMaeUsuario}>
-                            <img src="src\assets\eaf133c9-e76f-47d2-b293-8419d9ac55b0.png" alt="fundo_azul" id={style.imagemOrganizacao} />
+                            <img src="src\assets\Group 190.png" alt="fundo_azul" id={style.imagemOrganizacao} />
                         </div>
                     )}
                     {botaoSelecionado === 'empresa' && (
                         <div className={style.divMaeEmpresa}>
-                            <img src="src\assets\ff19c974-63fc-4ec6-9e79-0a3188d61a6f.png" alt="fundo_roxo" id={style.imagemOrganizacao} />
+                            <img src="src\assets\Group 191.png" alt="fundo_roxo" id={style.imagemOrganizacao} />
                         </div>
                     )}
                 </div>

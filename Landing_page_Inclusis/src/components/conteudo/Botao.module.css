@@ -14,3 +14,8 @@
     background-color: #80a7fe;
     border-color: #80a7fe;
 }
+
+.botaoUm:target{
+    background-color: #3575ff;
+    border-color: #3575ff;
+}

@@ -16,16 +16,11 @@
 }
 
 #divBeneficios {
-    width: 100px;
-    background-color: #e8f3ff;  
-    border-radius: 35.5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 10px; 
-    right: 155px;
-    padding-top: 10px;
+    margin-top: 15px;
+
 }
 
 #beneficios {
@@ -33,6 +28,7 @@
     font-size: 16px;
     color: #2C46D1;
     text-align: center;
+    padding: 10px 10px;
 }
 
 .divMaeUsuario {
@@ -45,7 +41,6 @@
     justify-content: flex-start; 
     align-items: center;
     padding-left: 50px; 
-
 }
 
 .divMaeEmpresa {

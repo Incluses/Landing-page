@@ -14,3 +14,8 @@
     background-color: #bf57ff;
     border-color: #bf57ff;
 }
+
+.botaoDois:active{
+    background-color: #9d00ff !important;
+    border-color: #9d00ff !important;
+}
