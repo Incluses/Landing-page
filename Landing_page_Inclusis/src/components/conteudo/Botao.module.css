@@ -15,7 +15,7 @@
     border-color: #80a7fe;
 }
 
-.botaoUm:target{
+.botaoUm:active{
     background-color: #3575ff;
     border-color: #3575ff;
 }

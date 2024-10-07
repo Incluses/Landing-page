@@ -35,7 +35,7 @@
 .divMaeUsuario {
     background-color: #E8F3FF;
     width: 1194px;
-    height: 573px;
+    height: 550px;
     border-radius: 44px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
@@ -45,9 +45,10 @@
 }
 
 .divMaeEmpresa {
+    flex-direction: row-reverse;
     background-color: #e9d8ff;
     width: 1194px;
-    height: 573px;
+    height: 550px;
     border-radius: 44px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
@@ -57,9 +58,9 @@
 }
 
 #imagemOrganizacao {
-    margin-left: 20px;
-    width: 513.68px;
-    height: 325.49px;
+    margin-left: 100px;
+    width: 514.68px;
+    height: 326.49px;
 }
 
 .containerDois {
@@ -67,4 +68,39 @@
     grid-template-columns: 1080px 99px;
     grid-template-rows: 1fr;
     align-items: center;
+}
+
+.pMae, .nums, #pMaeDois {
+    display: inline;
+    font-size: 20px;
+    color: #782CD4;
+}
+
+.pMae {
+    margin-right: 120px;
+}
+
+#conteudo {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.nums {
+    margin-right: 17px;
+    background-color: #782CD4;
+    color: white;
+    padding: 0px 14px 3.5px;
+    border-radius: 50%;
+}
+
+.conteudoFilho {
+    color: #363636;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: start;
+}
+
+#pMaeDois {
+    margin-right: 290px;
 }
