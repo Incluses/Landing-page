@@ -8,15 +8,46 @@ import { useNavigate } from 'react-router-dom';
 
 function loginAcessoRestrito(){
 
-    const emailValido = () => {
-        const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
-        window.alert("passou")
-        // if (!regex.test(emailInput)) {
-        //     window.alert("ok")
-        // } else {
-        //     window.alert("não foi")
-        // }
-    };
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    Login(() => {
+            // Fazendo a requisição HTTP usando fetch
+            fetch('http://localhost:8080/dados')
+            .then((response) => {
+                if (!response.ok) {
+                throw new Error('Erro na requisição');
+                }
+                return response.json(); // Converte a resposta para JSON
+            })
+            .then((data) => {
+                setData(data); // Armazena os dados na variável de estado
+                setLoading(false); // Finaliza o carregamento
+            })
+            .catch((error) => {
+                setError(error); // Lida com erros
+                setLoading(false);
+            });
+        }, []); // O array vazio significa que a consulta será feita apenas uma vez ao montar o componente
+
+        if (loading) {
+            return <p>Carregando...</p>;
+        }
+
+        if (error) {
+            return <p>Erro: {error.message}</p>;
+        }
+
+            const emailValido = () => {
+                const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
+                window.alert("passou")
+                // if (!regex.test(emailInput)) {
+                //     window.alert("ok")
+                // } else {
+                //     window.alert("não foi")
+                // }
+        };
 
     const navigate = useNavigate();
 
