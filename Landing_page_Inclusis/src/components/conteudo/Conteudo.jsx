@@ -17,12 +17,12 @@ function Conteudo() {
     return (
         <>
             <div id={style.container}>
-                <div id={style.botoes}>
-                    <Botao onClick={aoClicarUsuario} /> 
-                    <BotaoDois onClick={aoClicarEmpresa} /> 
-                    <div id={style.divBeneficios}>
-                        <p id={style.beneficios}>Benefícios</p>
+                <div className={style.containerDois}>
+                    <div id={style.botoes}>
+                        <Botao onClick={aoClicarUsuario} />
+                        <BotaoDois onClick={aoClicarEmpresa} />
                     </div>
+                    <p id={style.beneficios}>Benefícios</p>
                 </div>
                 <div>
                     {botaoSelecionado === 'usuario' && (

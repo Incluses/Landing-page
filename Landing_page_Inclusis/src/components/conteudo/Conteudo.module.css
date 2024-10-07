@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Palanquin';
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -13,22 +19,17 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-}
-
-#divBeneficios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-
+    margin-left: 70px;
+    font-weight: 700;
 }
 
 #beneficios {
     font-weight: 700;
     font-size: 16px;
     color: #2C46D1;
-    text-align: center;
-    padding: 10px 10px;
+    background-color: #E8F3FF;
+    border-radius: 17px;
+    padding: 4px 10px 5px;
 }
 
 .divMaeUsuario {
@@ -59,4 +60,11 @@
     margin-left: 20px;
     width: 513.68px;
     height: 325.49px;
+}
+
+.containerDois {
+    display: grid;
+    grid-template-columns: 1080px 99px;
+    grid-template-rows: 1fr;
+    align-items: center;
 }
