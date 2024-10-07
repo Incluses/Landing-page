@@ -63,6 +63,12 @@
     height: 326.49px;
 }
 
+#imagemOrganizacaoDois {
+    margin-right: 100px;
+    width: 514.68px;
+    height: 330.49px;
+}
+
 .containerDois {
     display: grid;
     grid-template-columns: 1080px 99px;
@@ -111,8 +117,15 @@
     border-radius: 50%;
 }
 
-
 .conteudoFilho {
+    color: #363636;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.conteudoFilhoDois {
     color: #363636;
     margin-top: 12px;
     margin-bottom: 50px;
@@ -126,4 +139,8 @@
 
 #pMaeDoisUsuario {
     margin-right: 290px;
+}
+
+#conteudoDois {
+    margin-top: 90px;
 }

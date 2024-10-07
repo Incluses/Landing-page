@@ -27,16 +27,16 @@ function Conteudo() {
                 <div>
                     {botaoSelecionado === 'usuario' && (
                         <div className={style.divMaeUsuario}>
-                            <img src="src\assets\Group 190.png" alt="fundo_azul" id={style.imagemOrganizacao} />
-                            <div id={style.conteudo}>
+                            <img src="src\assets\Group 190.png" alt="fundo_azul" id={style.imagemOrganizacaoDois} />
+                            <div id={style.conteudoDois}>
                                 <p className={style.pMaeUsuario}><p className={style.numsUsuario}>1</p>Oportunidades de emprego</p>
-                                <p className={style.conteudoFilho}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
+                                <p className={style.conteudoFilhoDois}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
 
                                 <p id={style.pMaeDoisUsuario}><p className={style.numsUsuario}>2</p>Network</p>
-                                <p className={style.conteudoFilho}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
+                                <p className={style.conteudoFilhoDois}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
 
                                 <p className={style.pMaeUsuario}><p className={style.numsUsuario}>3</p>Mais conforto e tranparência</p>
-                                <p className={style.conteudoFilho}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
+                                <p className={style.conteudoFilhoDois}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod temporqua.</p>
                             </div>
                         </div>
                     )}
