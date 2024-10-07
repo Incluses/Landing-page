@@ -70,13 +70,23 @@
     align-items: center;
 }
 
-.pMae, .nums, #pMaeDois {
+.pMaeEmpresa, .numsEmpresa, #pMaeDoisEmpresa {
     display: inline;
     font-size: 20px;
     color: #782CD4;
 }
 
-.pMae {
+.pMaeUsuario, .numsUsuario, #pMaeDoisUsuario {
+    display: inline;
+    font-size: 20px;
+    color: #2b46d3;
+}
+
+.pMaeEmpresa {
+    margin-right: 120px;
+}
+
+.pMaeUsuario {
     margin-right: 120px;
 }
 
@@ -85,13 +95,22 @@
     margin-top: 60px;
 }
 
-.nums {
+.numsEmpresa {
     margin-right: 17px;
     background-color: #782CD4;
     color: white;
     padding: 0px 14px 3.5px;
     border-radius: 50%;
 }
+
+.numsUsuario {
+    margin-right: 17px;
+    background-color: #2b46d3;
+    color: white;
+    padding: 0px 14px 3.5px;
+    border-radius: 50%;
+}
+
 
 .conteudoFilho {
     color: #363636;
@@ -101,6 +120,10 @@
     text-align: start;
 }
 
-#pMaeDois {
+#pMaeDoisEmpresa {
+    margin-right: 290px;
+}
+
+#pMaeDoisUsuario {
     margin-right: 290px;
 }
