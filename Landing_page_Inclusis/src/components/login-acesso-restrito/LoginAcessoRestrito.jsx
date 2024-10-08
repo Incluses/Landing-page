@@ -4,56 +4,53 @@ import InputTexto from "../input-texto/InputTexto"
 import Link from "../links/Link"
 import BotaoPrincipal from "../botaoPrincipal/BotaoPrincipal"
 import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 
 function loginAcessoRestrito(){
 
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
-    Login(() => {
-            // Fazendo a requisição HTTP usando fetch
-            fetch('http://localhost:8080/dados')
-            .then((response) => {
-                if (!response.ok) {
-                throw new Error('Erro na requisição');
-                }
-                return response.json(); // Converte a resposta para JSON
-            })
-            .then((data) => {
-                setData(data); // Armazena os dados na variável de estado
-                setLoading(false); // Finaliza o carregamento
-            })
-            .catch((error) => {
-                setError(error); // Lida com erros
-                setLoading(false);
-            });
-        }, []); // O array vazio significa que a consulta será feita apenas uma vez ao montar o componente
-
-        if (loading) {
-            return <p>Carregando...</p>;
-        }
-
-        if (error) {
-            return <p>Erro: {error.message}</p>;
-        }
-
-            const emailValido = () => {
-                const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
-                window.alert("passou")
-                // if (!regex.test(emailInput)) {
-                //     window.alert("ok")
-                // } else {
-                //     window.alert("não foi")
-                // }
-        };
-
-    const navigate = useNavigate();
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
 
     const goToGrafic = () => {
         navigate('/grafic')
     }
+
+    const handleLogin = async () => {
+        try {
+        const response = await axios.post('http://localhost:8080/api/auth/login', {
+        email,
+        senha,
+      });
+      console.log('Login bem-sucedido:', response.data);
+      if(response.status===200){
+        goToGrafic(); 
+      }
+    } catch (error) {
+      console.error('Erro no login:', error.response?.data || error.message);
+        if (error.response) {
+          console.error('Erro no login:', error.response.data);
+        } else if (error.request) {
+          console.error('Erro de rede:', error.request);
+        } else {
+          console.error('Erro:', error.message);
+        }
+    }
+  };
+
+            const emailValido = () => {
+                const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
+                window.alert("passou")
+                if (!regex.test(emailInput)) {
+                    window.alert("ok")
+                } else {
+                    window.alert("não foi")
+                }
+        };
+
+    // const navigate = useNavigate();
+
 
     
 
@@ -67,11 +64,11 @@ function loginAcessoRestrito(){
             </div>
             <div id={style.inputs}>
                 <InputTexto onChange={(e) => setEmail(e.target.value)} placeholder="Ex: Exemple@gmail.com" text="Digite seu login:" type="text" id="inputEmail"></InputTexto>
-                <InputTexto placeholder="Ex: *********" text="Digite sua senha:" type="password"></InputTexto>
+                <InputTexto onChange={(e) => setSenha(e.target.value)} placeholder="Ex: *********" text="Digite sua senha:" type="password"></InputTexto>
             </div>
             <Link text="Esqueci minha senha" className={style.senha}></Link>
             <div className={style.botao}>
-                <BotaoPrincipal onClick={() => {goToGrafic()}} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
+                <BotaoPrincipal onClick={handleLogin} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
             </div>
         </div>
         <div className={style.termos}>

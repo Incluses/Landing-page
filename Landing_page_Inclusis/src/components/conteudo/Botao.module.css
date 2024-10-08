@@ -1,0 +1,21 @@
+.botaoUm{
+    color: #2C46D1;
+    background-color: #eaf1ff;
+    border-color: #eaf1ff;
+    font-weight: 700;
+    font-size: 15px;
+    width: 145.21px;
+    height: 67px;
+    border-radius: 35.5px;
+    margin-left: 10px;
+}
+
+.botaoUm:hover{
+    background-color: #80a7fe;
+    border-color: #80a7fe;
+}
+
+.botaoUm:active{
+    background-color: #3575ff;
+    border-color: #3575ff;
+}

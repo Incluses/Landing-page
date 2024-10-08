@@ -1,7 +1,9 @@
 .input{
     width: 100%;
     padding: 12px;
-    padding-left: 25px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
     font-size: 14px;
     opacity: 0.5;
     border-radius: 10px;
