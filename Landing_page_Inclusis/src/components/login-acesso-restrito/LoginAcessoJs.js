@@ -1,8 +1,8 @@
 const senhaInput = document.getElementById('senha');
-const mostrarSenha = document.querySelector('.mostrar-senha img');
+const mostrarSenha = document.querySelector('.mostrar_senha img');
 
-const olhoAberto = 'Icone_olhoA.png';
-const olhoFechado = 'Icone_olhoB.png';
+const olhoAberto = 'src\\assets\\Icone_olhoA.png';
+const olhoFechado = 'src\\assets\\Icone_olhoB.png';
 
 mostrarSenha.addEventListener('click', () => {
     if (senhaInput.type === 'password') {

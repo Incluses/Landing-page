@@ -14,7 +14,7 @@ h1{
     font-size: 48px;  /* aumenta o tamanho da fonte */
     font-weight: 600;  /* aumenta o tamanho da fonte */
     margin: 0;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 h2{
     padding-left: 10%; /* Move o texto para a esquerda */
@@ -106,8 +106,10 @@ input {
     cursor: pointer; /* Altera o cursor */
     font-weight: bold; /* Altera a fonte */
     font-size: 15px; /* Tamanho da fonte */
-    margin-left: 5%; /* Margem para esquerda */
     margin-top: 24px; /* Margem para cima */
+    position: relative;
+    left: -5%;
+
 }
 
 
@@ -122,7 +124,7 @@ input {
 }
 
 
-.mostrar-senha{
+.mostrar_senha{
     cursor: default; /* Altera o cursor */
     font-size: 14px; /* Tamanho da fonte */
     float: right; /* Coloca o elemento para a direita */
@@ -136,15 +138,16 @@ input {
     position: absolute; /* Define o posicionamento bonus absoluto */
 }
 
-.imagem-olho{
+.imagem_olho{
     width: 100%; /* Largura */
     height: 25px; /* Altura */
 }
 
-.senha-container{
-    display: flex; /* Define o display como flex */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: space-between; /*Espaça o conteúdo entre os elementos */
+.senha_container {
+    position: relative; /* Mantém o ícone dentro do contêiner */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .voltar{
