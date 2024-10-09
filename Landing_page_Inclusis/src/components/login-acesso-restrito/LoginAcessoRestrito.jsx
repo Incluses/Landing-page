@@ -10,53 +10,16 @@ import axios from 'axios';
 
 function loginAcessoRestrito(){
 
-    const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
+    const navigate = useNavigate();
 
     const goToGrafic = () => {
         navigate('/grafic')
     }
-
-    const handleLogin = async () => {
-        try {
-        const response = await axios.post('http://localhost:8080/api/auth/login', {
-        email,
-        senha,
-      });
-      console.log('Login bem-sucedido:', response.data);
-      if(response.status===200){
-        goToGrafic(); 
-      }
-    } catch (error) {
-      console.error('Erro no login:', error.response?.data || error.message);
-        if (error.response) {
-          console.error('Erro no login:', error.response.data);
-        } else if (error.request) {
-          console.error('Erro de rede:', error.request);
-        } else {
-          console.error('Erro:', error.message);
-        }
-    }
-  };
-
-            const emailValido = () => {
-                const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
-                window.alert("passou")
-                if (!regex.test(emailInput)) {
-                    window.alert("ok")
-                } else {
-                    window.alert("não foi")
-                }
-        };
-
-    // const navigate = useNavigate();
-
-
+    
     
 
     return(
     <div className={style.geral}>
-        <img src={imagemFundo} className={style.img_fundo}></img>
         <div className={style.card}>
             <div className={style.textos}>
                 <h1 id={style.titulo}>Incluses</h1>
@@ -68,7 +31,7 @@ function loginAcessoRestrito(){
             </div>
             <Link text="Esqueci minha senha" className={style.senha}></Link>
             <div className={style.botao}>
-                <BotaoPrincipal onClick={handleLogin} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
+                <BotaoPrincipal onClick={()=> {goToGrafic()}} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
             </div>
         </div>
         <div className={style.termos}>
