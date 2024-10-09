@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Palanquin';
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 48px;
+    color: #2B46D3;
+    font-weight: 600 !important;
+    margin-bottom: 30px;
+}
+
+#tituloDiferente {
+    color: #782CD4;
+}
