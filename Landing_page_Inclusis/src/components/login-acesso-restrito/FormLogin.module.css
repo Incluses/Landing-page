@@ -27,9 +27,8 @@
     font-size: 27px;
     color: black;
     font-weight: bolder;
-    text-align: start;
+    text-align: center;
     margin-top: 0;
-    margin-left: 20px;
 }
 
 #textoMae {
@@ -45,8 +44,9 @@
     text-align: start;
     margin-left: 20px; 
     padding-left: 20px; 
-    width: 350px; 
+    width: 361px; 
     height: 57px; 
+    border-radius: 15px;
 }
 
 .mb-3 {
@@ -62,11 +62,11 @@
     height: 50px;
     border-radius: 13px;
     background-color: #2B46D3;
-    border-color: #2B46D3;
+    margin-top: 15px;
+    border: none;
 }
 
 #botao:hover {
-    background-color: #782CD4;
+    background-color: #2A7BD1;
     color: white;
-    border-color: #782CD4;
 }

@@ -7,15 +7,15 @@ function FormLogin() {
     <div>
         <h1 id={style.titulo}>Inclu<span id={style.tituloDiferente}>ses</span></h1>
         <hr id={style.linha} />
-        <p id={style.textoLogin}>Login administrador</p>
+        <p id={style.textoLogin}>Acesso Restrito</p>
         <Form id={style.form}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label id={style.textoMae}>Usuário: </Form.Label>
-            <Form.Control id={style.textoFilho} type="email" placeholder="Ex: avadmin" />
+            <Form.Label id={style.textoMae}>Administrador: </Form.Label>
+            <Form.Control id={style.textoFilho} type="text" placeholder="Ex: adm123" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label id={style.textoMae}>Digite a senha: </Form.Label>
-            <Form.Control id={style.textoFilho} type="password" placeholder="Ex: ********" />
+            <Form.Control id={style.textoFilho} type="password" placeholder="Senha" />
           </Form.Group>
           <Button variant="primary" type="submit" id={style.botao}>
             Entrar
