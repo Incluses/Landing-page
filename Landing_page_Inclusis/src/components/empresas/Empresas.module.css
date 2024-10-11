@@ -1,5 +1,5 @@
 #containerEmpresas {
-    background-image: url('src\\assets\\WhatsApp Image 2024-10-11 at 09.33.34.jpeg');
+    background-image: url('src/assets/Frame 5.jpg');
     display: flex;
     align-items: flex-start; 
     justify-content: flex-start; 
@@ -11,8 +11,11 @@
 }
 
 #divEmpresasCausas {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 10px;
+    align-items: start;
 }
 
 #empresasCausas {
@@ -20,8 +23,10 @@
     color: #2C46D1;
     padding: 5px 10px;
     border-radius: 50px;
-    margin-bottom: 38px;
     margin-top: 38px;
+    margin-left: 38px;
 }
 
-
+#inclusesTexto {
+    font-size: 32px;
+}
