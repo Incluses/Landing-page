@@ -1,4 +1,12 @@
 .botaoDois {
     height: 40px;
-    align-self: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100; 
+}
+
+.botaoDois:hover {
+    background-color: #2A7BD1;
+    border-color: #2A7BD1; 
 }
