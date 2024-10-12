@@ -9,6 +9,7 @@ function Empresas() {
                 empresas que visam a inclusão e <br />
                 a diversidade, assim como a </p>
                 <img src="src\assets\Group 193.png" alt="Logo da Diversis" />
+                <p id={style.empresasTexto}>Ver empresas</p>
             </div>
         </div>
         
