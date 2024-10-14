@@ -1,0 +1,6 @@
+.cards{
+    padding: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 150px;
+}   
