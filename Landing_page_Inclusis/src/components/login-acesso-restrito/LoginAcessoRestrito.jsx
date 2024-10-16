@@ -11,6 +11,13 @@ import axios from 'axios';
 
 function loginAcessoRestrito(){
 
+  const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Formulário enviado. Valor do input:", inputValue);
+  };
+
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');  
@@ -60,14 +67,16 @@ function loginAcessoRestrito(){
                 <h1 id={style.titulo}>Incluses</h1>
                 <h2 id={style.subtitulo}>Acesso Restrito</h2>
             </div>
-            <div id={style.inputs}>
-                <InputTexto value={username} onChange={(e) => setUsername(e.target.value)}  placeholder="Ex: Exemple@gmail.com" text="Digite seu login:" type="text" id="inputEmail"></InputTexto>
-                <InputTexto value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ex: *********" text="Digite sua senha:" type="password"></InputTexto>
-            </div>
-            <Link text="Esqueci minha senha" className={style.senha}></Link>
-            <div className={style.botao}>
-                <BotaoPrincipal onClick={handleLogin} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
-            </div>
+            <form onSubmit={handleSubmit}>
+                <div id={style.inputs}>
+                    <InputTexto value={username} onChange={(e) => setUsername(e.target.value)}  placeholder="Ex: Exemple@gmail.com" text="Digite seu login:" type="text" id="inputEmail"></InputTexto>
+                    <InputTexto value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ex: *********" text="Digite sua senha:" type="password"></InputTexto>
+                </div>
+                <Link text="Esqueci minha senha" className={style.senha}></Link>
+                <div className={style.botao}>
+                    <BotaoPrincipal type="submit" onClick={handleLogin} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
+                </div>
+            </form>
         </div>
         <div className={style.termos}>
                 <p id={style.texto1}>Ao continuar, você concorda com a</p>

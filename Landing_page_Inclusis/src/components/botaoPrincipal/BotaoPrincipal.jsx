@@ -1,10 +1,10 @@
 import style from './BotaoPrincipal.module.css'
 
-function BotaoPrincipal({backgroundColor,text,marginTop,marginBotton,onClick}){
+function BotaoPrincipal({backgroundColor,text,marginTop,marginBotton,onClick,type}){
     return(
-        <div style={{backgroundColor:backgroundColor,marginTop:marginTop,marginBottom:marginBotton}} className={style.botao} onClick={onClick}>
+        <button type={type} style={{backgroundColor:backgroundColor,marginTop:marginTop,marginBottom:marginBotton}} className={style.botao} onClick={onClick}>
             <p>{text}</p>
-        </div>
+        </button>
     )
 }
 

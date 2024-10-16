@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 
 function Navbar({color1,color2}){
+
     const navigate = useNavigate();
     
     const goToGrafic = () => {
