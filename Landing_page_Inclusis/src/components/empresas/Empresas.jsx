@@ -8,7 +8,7 @@ function Empresas() {
                 <p id={style.inclusesTexto}>Incluses é o app que só aceita <br /> 
                 empresas que visam a inclusão e <br />
                 a diversidade, assim como a </p>
-                <img src="src\assets\Group 193.png" alt="Logo da Diversis" />
+                <img src="src\assets\Group 193.png" alt="Logo da Diversis" id={style.logo}/>
                 <p id={style.empresasTexto}>Ver empresas</p>
             </div>
         </div>

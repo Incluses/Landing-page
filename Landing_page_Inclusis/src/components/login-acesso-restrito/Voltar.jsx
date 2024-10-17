@@ -12,7 +12,7 @@ function Voltar({ onClick }) {
 
     return (
         <>
-            <Button onClick={voltar}  className={style.botaoDois}variant='primary'>{seta} voltar</Button>{' '}
+            <Button onClick={voltar} className={style.botaoDois}variant='primary'>{seta} voltar</Button>{' '}
         </>
     )
 }

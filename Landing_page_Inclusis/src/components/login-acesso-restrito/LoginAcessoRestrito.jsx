@@ -1,11 +1,6 @@
 import style from "./loginAcessoRestrito.module.css";
-import imagemFundo from "../../assets/fundoLoginAcessoRestrito.png";
-import InputTexto from "../input-texto/InputTexto";
 import FormLogin from "./FormLogin";
 import Voltar from "./Voltar";
-import Link from "../links/Link";
-import BotaoPrincipal from "../botaoPrincipal/BotaoPrincipal";
-import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -51,8 +46,6 @@ function loginAcessoRestrito() {
       window.alert("não foi");
     }
   };
-
-  // const navigate = useNavigate();
 
   return (
     <div id={style.principalMae}>
