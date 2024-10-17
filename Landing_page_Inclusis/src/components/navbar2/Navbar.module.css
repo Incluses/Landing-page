@@ -55,3 +55,27 @@
     width: 25px;
     height: 20px;
 }
+
+@media screen and (max-width: 450px) {
+    .logo{
+        font-family: "Palanquin", sans-serif;
+        font-weight: 600;
+        font-style: bold;
+        color: #2B46D3;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .cabecalho{
+        display: flex;
+        gap: 15%;
+        margin-top: 1%;
+        border-bottom: #2B46D3 1px solid;
+    }
+
+    .inputGeral{
+        opacity: 0%;
+        position: absolute;
+    }
+    
+}
