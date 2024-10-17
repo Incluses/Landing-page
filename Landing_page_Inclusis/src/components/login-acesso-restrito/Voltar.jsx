@@ -6,13 +6,13 @@ function Voltar({ onClick }) {
     const navigate = useNavigate();
     let seta = '<';
 
-    function handleVoltar() {
+    function voltar() {
         navigate(-1); 
     }
 
     return (
         <>
-            <Button onClick={handleVoltar}  className={style.botaoDois}variant='primary'>{seta} voltar</Button>{' '}
+            <Button onClick={voltar}  className={style.botaoDois}variant='primary'>{seta} voltar</Button>{' '}
         </>
     )
 }
