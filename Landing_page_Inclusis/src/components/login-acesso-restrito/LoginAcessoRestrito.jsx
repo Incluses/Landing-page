@@ -1,9 +1,6 @@
 import style from "./loginAcessoRestrito.module.css";
-import imagemFundo from "../../assets/fundoLoginAcessoRestrito.png";
-import InputTexto from "../input-texto/InputTexto";
-import Link from "../links/Link";
-import BotaoPrincipal from "../botaoPrincipal/BotaoPrincipal";
-import { useNavigate } from "react-router-dom";
+import FormLogin from "./FormLogin";
+import Voltar from "./Voltar";
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -50,29 +47,14 @@ function loginAcessoRestrito() {
     }
   };
 
-  // const navigate = useNavigate();
-
-  return <div id={style.principal}>
-      <button class="voltar">🢐 Voltar</button>
-      <div class="container">
-          <div class="incluses">
-              <h1><span class="inclus">Inclus</span><span class="es">es</span></h1>
-          </div>
-          <hr/>
-          <h2>Login administrador</h2>
-          <form>
-              <label for="usuario">Usuário:</label>
-              <input type="text" id="usuario" placeholder="Ex: avnadmin"/>
-              <label for="senha">Digite a senha:</label>
-          <div class="senha-container">
-              <input type="password" id="senha" placeholder="Ex: ****"/>
-              <span class="mostrar-senha"><img src="Icone_olhoA.png" class="imagem-olho" alt="mostrar senha"/></span>
-          </div>
-              <button type="submit">Entrar</button>
-          </form>
+  return (
+    <div id={style.principalMae}>
+      <Voltar />
+      <div id={style.principal}>
+        <FormLogin />
       </div>
-      <script src="LandingPage.js"></script>
-  </div>;
+    </div>
+  );
 }
 
 export default loginAcessoRestrito;

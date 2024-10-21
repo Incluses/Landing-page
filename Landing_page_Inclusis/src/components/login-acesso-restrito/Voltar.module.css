@@ -1,0 +1,15 @@
+.botaoDois {
+    height: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-radius: 0;
+    border-bottom-right-radius: 12px;
+    padding-bottom: 10px;
+}
+
+.botaoDois:hover {
+    background-color: #2A7BD1;
+    border-color: #2A7BD1; 
+}
