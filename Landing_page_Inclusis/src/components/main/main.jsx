@@ -4,6 +4,7 @@ import Beneficios from "../beneficios/Beneficios.jsx";
 import Conteudo from "../conteudo/Conteudo.jsx";
 import Empresas from "../empresas/Empresas.jsx";
 import SobreNos from "../sobreNos/SobreNos.jsx";
+import NossaMissao from "../nossaMissao/NossaMissao.jsx";
 import style from "./Main.module.css";
 
 function Main(){
@@ -14,6 +15,7 @@ function Main(){
             <Beneficios />
             <Conteudo />
             <Empresas />
+            <NossaMissao />
             <SobreNos />
         </div>
     )
