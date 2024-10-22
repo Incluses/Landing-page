@@ -1,60 +1,89 @@
-import style from "./loginAcessoRestrito.module.css";
-import FormLogin from "./FormLogin";
-import Voltar from "./Voltar";
-import React, { useState } from "react";
-import axios from "axios";
+import style from "./loginAcessoRestrito.module.css"
+import imagemFundo from "../../assets/fundoLoginAcessoRestrito.png"
+import InputTexto from "../input-texto/InputTexto"
+import Link from "../links/Link"
+import BotaoPrincipal from "../botaoPrincipal/BotaoPrincipal"
+import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
-function loginAcessoRestrito() {
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
 
-  const goToGrafic = () => {
-    navigate("/grafic");
+
+function loginAcessoRestrito(){
+
+  const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Formulário enviado. Valor do input:", inputValue);
   };
 
-  const handleLogin = async () => {
-    try {
-      const response = await axios.post(
-        "http://localhost:8080/api/auth/login",
-        {
-          email,
-          senha,
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');  
+
+    const navigate = useNavigate();
+
+    const goToGrafic = () => {
+        navigate('/intermediaria')
+    }
+
+    useEffect(() => {
+        const isLoggedIn = localStorage.getItem('isLoggedIn');
+        const userInfo = localStorage.getItem('userInfo');
+    
+        if (!isLoggedIn) {
+          localStorage.setItem('isLoggedIn', false);
         }
-      );
-      console.log("Login bem-sucedido:", response.data);
-      if (response.status === 200) {
-        goToGrafic();
-      }
-    } catch (error) {
-      console.error("Erro no login:", error.response?.data || error.message);
-      if (error.response) {
-        console.error("Erro no login:", error.response.data);
-      } else if (error.request) {
-        console.error("Erro de rede:", error.request);
-      } else {
-        console.error("Erro:", error.message);
-      }
-    }
-  };
+    
+        if (!userInfo) {
+          const user = {
+            username: 'amdRenatoBarros',
+            password: 'Renato123@',
+            loginTime: new Date().toISOString()
+          };
+          localStorage.setItem('userInfo', JSON.stringify(user));
+        }
+    
+        console.log('User Info:', localStorage.getItem('userInfo'));
+      }, []);
 
-  const emailValido = () => {
-    const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
-    window.alert("passou");
-    if (!regex.test(emailInput)) {
-      window.alert("ok");
-    } else {
-      window.alert("não foi");
-    }
-  };
+      const handleLogin = () => {
+        const storedUser = JSON.parse(localStorage.getItem('userInfo'));
+    
+        if (storedUser.username === username && storedUser.password === password) {
+          goToGrafic()
+        } else {
+          alert('Login mal sucedido!')
+        }
+      };
+    
+    
 
-  return (
-    <div id={style.principalMae}>
-      <Voltar />
-      <div id={style.principal}>
-        <FormLogin />
-      </div>
-    </div>
-  );
+    return(
+    <div className={style.geral}>
+        <div className={style.card}>
+            <div className={style.textos}>
+                <h1 id={style.titulo}>Incluses</h1>
+                <h2 id={style.subtitulo}>Acesso Restrito</h2>
+            </div>
+            <form onSubmit={handleSubmit}>
+                <div id={style.inputs}>
+                    <InputTexto value={username} onChange={(e) => setUsername(e.target.value)}  placeholder="Ex: Exemple@gmail.com" text="Digite seu login:" type="text" id="inputEmail"></InputTexto>
+                    <InputTexto value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ex: *********" text="Digite sua senha:" type="password"></InputTexto>
+                </div>
+                <Link text="Esqueci minha senha" className={style.senha}></Link>
+                <div className={style.botao}>
+                    <BotaoPrincipal type="submit" onClick={handleLogin} text="Entrar" backgroundColor="blue" marginTop="13%" marginBotton="30%"></BotaoPrincipal>
+                </div>
+            </form>
+        </div>
+        <div className={style.termos}>
+                <p id={style.texto1}>Ao continuar, você concorda com a</p>
+                <p id={style.texto2}>politica de privacidade e Termo de uso.</p>
+            </div>
+
+    </div>)
 }
 
 export default loginAcessoRestrito;
