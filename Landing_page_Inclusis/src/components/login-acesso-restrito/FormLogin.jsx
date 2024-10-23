@@ -10,7 +10,7 @@ function FormLogin() {
   const navigate = useNavigate(); // Hook para navegação
 
   const handleClick = () => {
-    navigate('/grafic'); // Define a rota para onde deseja navegar
+    navigate('/intermediaria'); // Define a rota para onde deseja navegar
   };
   const [admValido, setAdmValido] = useState(true);
   const [senhaValida, setSenhaValida] = useState(true);
