@@ -6,7 +6,6 @@ import Empresas from "../empresas/Empresas.jsx";
 import NossaMissao from "../nossaMissao/NossaMissao.jsx";
 import SobreNos from "../sobreNos/SobreNos.jsx";
 import InclusesFinal from "../inclusesFinal/InclusesFinal.jsx";
-import style from "./Main.module.css";
 
 function Main(){
     return(
