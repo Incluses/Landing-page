@@ -2,9 +2,16 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import style from './FormLogin.module.css'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function FormLogin() {
 
+
+  const navigate = useNavigate(); // Hook para navegação
+
+  const handleClick = () => {
+    navigate('/grafic'); // Define a rota para onde deseja navegar
+  };
   const [admValido, setAdmValido] = useState(true);
   const [senhaValida, setSenhaValida] = useState(true);
 
@@ -27,6 +34,8 @@ function FormLogin() {
       console.log('Login inválido!')
     }
   }
+
+
 
   return (
     <div>
@@ -54,7 +63,7 @@ function FormLogin() {
           isInvalid={!senhaValida}
         />
         </Form.Group>
-        <Button variant="primary" type="submit" id={style.botao}>Entrar</Button>
+        <Button onClick={() => {handleClick()}} variant="primary" type="submit" id={style.botao}>Entrar</Button>
       </Form>
     </div>
   );

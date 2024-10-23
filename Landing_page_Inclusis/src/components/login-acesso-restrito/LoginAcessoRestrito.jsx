@@ -37,6 +37,7 @@ function loginAcessoRestrito() {
     }
   };
 
+<<<<<<< Updated upstream
   const emailValido = () => {
     const regex = /^[a-zA-Z]+@[a-zA-Z]+$/;
     window.alert("passou");
@@ -46,6 +47,27 @@ function loginAcessoRestrito() {
       window.alert("não foi");
     }
   };
+=======
+    useEffect(() => {
+        const isLoggedIn = localStorage.getItem('isLoggedIn');
+        const userInfo = localStorage.getItem('userInfo');
+    
+        if (!isLoggedIn) {
+          localStorage.setItem('isLoggedIn', false);
+        }
+    
+        if (!userInfo) {
+          const user = {
+            username: 'admRenatoBarros',
+            password: 'Renato123@',
+            loginTime: new Date().toISOString()
+          };
+          localStorage.setItem('userInfo', JSON.stringify(user));
+        }
+    
+        console.log('User Info:', localStorage.getItem('userInfo'));
+      }, []);
+>>>>>>> Stashed changes
 
   return (
     <div id={style.principalMae}>

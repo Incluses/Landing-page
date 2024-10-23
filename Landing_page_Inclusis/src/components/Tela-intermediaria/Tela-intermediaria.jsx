@@ -25,7 +25,7 @@ function TelaIntermediaria(){
 
 
         <div id={style.grupo}>
-            <CardArea imgSrc={BdIcon} title="Crud" text="Analisar os dados em tempo real, registrados no banco relacional da Incluses." textBotton="Continuar"></CardArea>
+            <CardArea imgSrc={BdIcon} title="Admin" text="Analisar os dados em tempo real, registrados no banco relacional da Incluses." textBotton="Continuar"></CardArea>
             <CardArea onCLick={() => {handleClick()}} imgSrc={GraficIcon} title="Gráficos" text="Analisar os dados das pesquisas feitas, por meio de gráficos com interações, feitas no power BI" textBotton="Continuar"></CardArea>
         </div>
     </div>)

@@ -26,9 +26,13 @@ function Navbar({color1,color2}){
     const goToInfos = () => {
         navigate('/infos')
     }
+
+    const goToMain = () => {
+        navigate('/')
+    }
     return(
         <div className={style.cabecalho}>
-                <p className={style.logo}>Incluses</p>
+                <p className={style.logo} onClick={() => {goToMain()}}>Incluses</p>
                 <nav className={style.nav}>
                     <div onClick={() => {goToGrafic()}}>
                         <BotaoNav text="Power BI" color={color1} onClick={goToGrafic()}></BotaoNav>
@@ -37,10 +41,6 @@ function Navbar({color1,color2}){
                         <BotaoNav text="Informações" color={color2}></BotaoNav>
                     </div>
                 </nav>
-                <div className={style.inputGeral}>
-                    <input type="text" placeholder="Pesquisar" className={style.input} value={inputValue} onChange={handleInputChange}></input>
-                    <img src={pesquisar} className={style.pesquisar}></img>
-                </div>
             </div>
     )
 }
