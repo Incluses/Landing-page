@@ -2,6 +2,7 @@ import style from "./loginAcessoRestrito.module.css";
 import FormLogin from "./FormLogin";
 import Voltar from "./Voltar";
 import React, { useState } from "react";
+import { useEffect } from 'react';
 import axios from "axios";
 
 function loginAcessoRestrito() {
