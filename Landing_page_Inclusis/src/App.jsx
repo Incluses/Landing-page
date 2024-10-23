@@ -5,6 +5,7 @@ import Grafic  from "./components/grafic/Grafic.jsx";
 import Main from "./components/main/main.jsx"
 import TelaIntermediaria from "./components/Tela-intermediaria/Tela-intermediaria.jsx";
 
+
 function App() {
   return (
     <Router>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path="/intermediaria" element={<TelaIntermediaria/>}></Route>
         <Route path="/login" element={<LoginAcessoRestrito/>}/>
+        <Route path="/grafic" element={<Grafic/>}/>
       </Routes>
     </Router>
   )

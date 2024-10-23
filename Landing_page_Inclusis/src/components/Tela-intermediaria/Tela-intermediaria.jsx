@@ -4,8 +4,18 @@ import imgLogo from "../../assets/WhatsApp_Image_2024-09-03_at_8.26.11_PM-remove
 import CardArea from "../cardArea/CardArea"
 import GraficIcon from "../../assets/graficos.png"
 import BdIcon from "../../assets/bdIcon.png"
+import { useNavigate } from 'react-router-dom';
+
 
 function TelaIntermediaria(){
+
+    const navigate = useNavigate(); // Hook para navegação
+
+    const handleClick = () => {
+        navigate('/grafic'); // Define a rota para onde deseja navegar
+    };
+
+
     return(
     <div className={style.geral}>
         <div className={style.nav}>
@@ -16,7 +26,7 @@ function TelaIntermediaria(){
 
         <div id={style.grupo}>
             <CardArea imgSrc={BdIcon} title="Crud" text="Analisar os dados em tempo real, registrados no banco relacional da Incluses." textBotton="Continuar"></CardArea>
-            <CardArea imgSrc={GraficIcon} title="Gráficos" text="Analisar os dados das pesquisas feitas, por meio de gráficos com interações, feitas no power BI" textBotton="Continuar"></CardArea>
+            <CardArea onCLick={() => {handleClick()}} imgSrc={GraficIcon} title="Gráficos" text="Analisar os dados das pesquisas feitas, por meio de gráficos com interações, feitas no power BI" textBotton="Continuar"></CardArea>
         </div>
     </div>)
 }
