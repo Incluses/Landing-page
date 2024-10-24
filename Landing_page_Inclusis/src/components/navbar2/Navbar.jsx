@@ -2,20 +2,18 @@ import style from "./Navbar.module.css"
 import BotaoNav from "../botaoNav/BotaoNav"
 import pesquisar from "../../assets/pesquisar.png"
 import { useNavigate } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import temaClaro from "../../assets/botaotemaclaro.png"
+import temaEscuro from "../../assets/modoEscuro2.png"
 
-function Navbar({color1,color2}){
+function Navbar({color1, color2, trocarCor}){
 
-    const [inputValue, setInputValue] = useState('');
+    const [srcAtual, setSrcAtual] = useState(temaClaro);
 
-    const handleInputChange = (e) => {
-        // Acessar informações do evento:
-        console.log('Tipo de evento:', e.type); // Tipo de evento (ex: "change")
-        console.log('Valor do input:', e.target.value); // Valor atual do input
-        console.log('Elemento alvo:', e.target); // Referência ao elemento DOM (input)
-
-        setInputValue(e.target.value);
+    const alternarImagem = (novaCor) => {
+        setSrcAtual((prevSrc) => (prevSrc === temaClaro ? temaEscuro : temaClaro));
     };
+
 
     const navigate = useNavigate();
 
@@ -31,7 +29,7 @@ function Navbar({color1,color2}){
         navigate('/')
     }
     return(
-        <div className={style.cabecalho}>
+        <div className={style.cabecalho} >
                 <p className={style.logo} onClick={() => {goToMain()}}>Incluses</p>
                 <nav className={style.nav}>
                     <div onClick={() => {goToGrafic()}}>
@@ -40,6 +38,11 @@ function Navbar({color1,color2}){
                     <div onClick={() => {goToInfos()}}>
                         <BotaoNav text="Informações" color={color2}></BotaoNav>
                     </div>
+                    <img src={srcAtual} id={style.tema} onClick={() => {
+                        alternarImagem() 
+                        trocarCor()}}></img>
+                    
+                    
                 </nav>
             </div>
     )

@@ -1,6 +1,6 @@
 .nav{
     display: flex;
-    gap: 60px;
+    gap: 70%;
     width: fit-content;
     font-size: 25px;
     align-items: center;
@@ -16,6 +16,20 @@
     margin-left: 30px;
     cursor: pointer;
     user-select: none;
+}
+
+#botaotema{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+#tema{
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 50px;
+    
 }
 
 .botao{
