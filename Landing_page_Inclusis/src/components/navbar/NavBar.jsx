@@ -25,6 +25,7 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+          <p id={style.inicio}>Início</p>
             <Nav.Link href="#action1" id={style.sobrenos}>Sobre Nós</Nav.Link>
           </Nav>
           <Form className="d-flex">
