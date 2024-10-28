@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
+@media (max-width: 1024px) {
+    #imagem {
+        height: auto !important; 
+        min-height: 350px; 
+        background-size: cover;
+        background-position: center;
+    }
+    #introdu > p {
+        font-size: 2.5rem;
+    }
+
+    #maisOportunidades {
+        font-size: 18px !important;
+    }
+
+    #imgPessoas {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #botao{
+        font-size: 18px !important;
+        
+    }
+
+    #facaCursos {
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 * {
     font-family: 'Palanquin';
     font-weight: 600;
@@ -86,45 +125,4 @@ span > span {
     margin-bottom: 38px;
 }
 
-@media (max-width: 904px) {
-    #introdu > p {
-        font-size: 1.8rem;
-    }
-}
-@media (max-width: 904px) {
-    #maisOportu {
-        width: 220px; 
-        margin-top: 15px;
-        margin-right: 5px;
-        & p {
-            font-size: 0.6rem;
-            margin-top: 5px;
-        }
-        & #imgPessoas {
-            width: 35px !important; 
-            height: 25px !important;
-        }
-    }
-}
-
-@media (max-width: 904px) {
-    #botao {
-        padding: 12px 25px;
-        font-size: 10px;
-        border-radius: 12px !important;
-    }
-}
-
-@media (max-width: 904px) {
-    #divFacaCursos {
-        padding: 8px 8px;
-        font-size: 55%;
-        border-radius: 12px !important;
-
-        & p {
-            margin-top: 7px;
-            margin-bottom: 25px;
-        }
-    }
-}
 

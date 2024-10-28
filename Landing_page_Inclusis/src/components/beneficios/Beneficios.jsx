@@ -29,7 +29,7 @@ function Beneficios(){
                 <img src="src/assets/Group 175.png" alt="uma pessoa" id={style.imgPessoa}/>
             </div>
             <div id={style.border}>
-                    </div>
+            </div>
             
         </>
     )

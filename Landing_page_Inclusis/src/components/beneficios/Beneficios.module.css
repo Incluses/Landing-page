@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
+@media (max-width: 1024px) {
+    #beneficios{
+        font-size: 18px;
+
+    }
+
+    #imgPessoa {
+        display: none !important;
+        margin-top: 0px;
+        
+    }
+
+    .pMae {
+        font-size: 18px;
+    }
+
+    .conteudo {
+        font-size: 20px !important;
+        text-align: start !important;
+    }
+
+    #oportuEmpre {
+        font-size: 35px !important;
+        
+    }
+
+    #titulos{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
 * {
     font-family: 'Palanquin';
 }
@@ -82,57 +115,3 @@
     height: 550px;
 }
 
-@media (max-width: 1500px) {
-    #divBeneficios{
-        margin-top: 20px;
-        margin-left: 60px;
-    }
-
-    #oportuEmpre {
-        font-size: 1.8rem;
-    }
-
-    #imgPessoa {
-        width: 350px;
-        height: 300px;
-    }
-
-    .pMae {
-        font-size: 18px;
-    }
-
-    .conteudo {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 904px) {
-    #divBeneficios{
-        margin-top: 30px;
-        margin-left: 50px;
-        font-size: 12px;
-    }
-
-    #oportuEmpre {
-        font-size: 0.8rem;
-    }
-
-    #imgPessoa {
-        width: 250px;
-        height: 200px;
-        margin-bottom: 90px;
-    }
-
-    .pMae {
-        font-size: 10px;
-        margin-bottom: 20px;
-    }
-
-    .conteudo {
-        font-size: 8px;
-    }
-
-    .nums {
-        padding: 0px 7px;
-    }
-}

@@ -9,7 +9,7 @@ function Introducao() {
                 <div id={style.introdu}>
                     <div id={style.maisOportu}>
                         <img src="src\assets\Group 167.png" alt="imagem de pessoas" id={style.imgPessoas}/>
-                        <p>+ mais oportunidades oferecidas pra você</p>
+                        <p id={style.maisOportunidades}>+ mais oportunidades oferecidas pra você</p>
                     </div>
                         <p></p>
                         <p><span>Inclus<span>es</span></span>, a oportunidade <br />que <span>você</span> precisa para aprender, <br /> empreender, trabalhar e <br /> crescer</p>

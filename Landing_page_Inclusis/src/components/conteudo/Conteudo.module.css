@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
+@media (max-width: 1024px) {
+    #beneficios {
+        font-weight: 700;
+        font-size: 15px !important;
+        color: #2C46D1;
+        background-color: #E8F3FF;
+        border-radius: 17px;
+        padding: 4px 10px 5px;
+    }
+
+    .conteudoFilhoDois {
+        color: #363636;
+        margin-top: 12px;
+        margin-bottom: 50px;
+        font-size: 10px !important;
+        text-align: start;
+    }
+
+    #imagemOrganizacao {
+        margin-left: 100px !important;
+        width: 400px !important;
+        height: 280.49px !important;
+    }
+
+    .conteudoFilho {
+        color: #363636;
+        margin-left: 100px !important;
+        margin-top: 12px;
+        margin-bottom: 50px;
+        font-size: 10px !important;
+        text-align: start;
+    }
+}
+
+
 * {
     font-family: 'Palanquin';
 }
