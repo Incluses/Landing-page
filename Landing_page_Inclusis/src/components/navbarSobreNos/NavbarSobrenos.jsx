@@ -10,7 +10,7 @@ function NavbarSobreNos() {
   const navigate = useNavigate();
 
   const handleSobreNosClick = () => {
-    // Navega para a página que informa quem somos
+    // Navega para a página inicial
     navigate("/");
   };
 

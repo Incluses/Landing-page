@@ -1,8 +1,15 @@
 import style from "./Introducao.module.css";
 import Button from 'react-bootstrap/Button';
-
+import { useNavigate } from "react-router-dom";
 
 function Introducao() {
+    const navigate = useNavigate();
+
+    const handleSobreNosClick = () => {
+        // Navega para a página que informa quem somos
+        navigate('/sobreNos');
+      }
+
     return (
         <>
             <div id={style.imagem}>
@@ -13,7 +20,7 @@ function Introducao() {
                     </div>
                         <p></p>
                         <p><span>Inclus<span>es</span></span>, a oportunidade <br />que <span>você</span> precisa para aprender, <br /> empreender, trabalhar e <br /> crescer</p>
-                        <Button variant="primary" id={style.botao}>Sobre nós</Button>{' '}
+                        <Button variant="primary" onClick={handleSobreNosClick} id={style.botao}>Sobre nós</Button>{' '}
                 </div>
             </div>
             
