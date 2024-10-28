@@ -9,13 +9,14 @@ function Grafic(){
         return storedColor ? storedColor : 'white';
   }
 
+  const [fundoDiv, setFundoDiv] = useState(pegarTemaAtual())
+  const [backgroundColor, setBackgroundColor] = useState(pegarTemaAtual());
+
   const trocarTemaAtual = (novaCor) => {
     setBackgroundColor(novaCor);
     localStorage.setItem('backgroundColor', novaCor)
   }
     
-  const [fundoDiv, setFundoDiv] = useState(pegarTemaAtual())
-  const [backgroundColor, setBackgroundColor] = useState(pegarTemaAtual());
 
  
   const trocarCor = () => {
