@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-#sobrenos {
+#inicio {
     font-weight: larger !important;
     margin-top: 7px;
 }
@@ -39,8 +39,8 @@
     margin-right: 50px !important;
 }
 
-#inicio {
-    margin-right: 40px;
+#sobreNos {
+    margin-left: 40px;
     margin-top: 14px;
     color: #407BFF;
     border-bottom: 3px solid ;

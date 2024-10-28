@@ -14,6 +14,11 @@ function NavScrollExample() {
     navigate('/login');
   };
 
+  const handleSobreNosClick = () => {
+    // Navega para a página que informa quem somos
+    navigate('/sobreNos');
+  }
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary" id={style.navbar}>
       <Container fluid>
@@ -26,7 +31,7 @@ function NavScrollExample() {
             navbarScroll
           >
           <p id={style.inicio}>Início</p>
-            <Nav.Link href="#action1" id={style.sobrenos}>Sobre Nós</Nav.Link>
+            <Nav.Link onClick={handleSobreNosClick} id={style.sobrenos}>Sobre Nós</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Button onClick={() => {handleButtonClick()}} variant="outline-success" id={style.acessorestrito}>Acesso restrito</Button>
