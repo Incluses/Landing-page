@@ -1,0 +1,18 @@
+#divMae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px !important;
+    background-image: url('src/assets/Group 244 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img {
+    position: relative;
+    left: 320px;
+    top: 500px;
+    width: 800px;
+    height: 560;
+    float: right;
+}

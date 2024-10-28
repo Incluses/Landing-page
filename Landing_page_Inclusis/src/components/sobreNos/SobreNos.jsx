@@ -1,10 +1,11 @@
 import NavbarSobreNos from "../navbarSobreNos/NavbarSobrenos";
+import QuemSomos from "../quemSomos/QuemSomos.jsx";
 
 function SobreNos() {
-    console.log('comwnfjdwbfiwehbfi')
     return (
         <>
             <NavbarSobreNos />
+            <QuemSomos />
         </>
     )
 }
