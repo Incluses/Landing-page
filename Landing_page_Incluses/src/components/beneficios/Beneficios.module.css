@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+
+@media (max-width: 1024px) {
+    #beneficios{
+        font-size: 18px;
+
+    }
+
+    #imgPessoa {
+        display: none !important;
+        margin-top: 0px;
+        
+    }
+
+    .pMae {
+        font-size: 18px;
+    }
+
+    .conteudo {
+        font-size: 20px !important;
+        text-align: start !important;
+    }
+
+    #oportuEmpre {
+        font-size: 35px !important;
+        
+    }
+
+    #titulos{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+* {
+    font-family: 'Palanquin';
+}
+
+#divBeneficios{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#beneficios{
+    background-color: #E8F3FF;
+    color: #2C46D1;
+    border-radius: 50px;
+    padding: 7px 15px ;  
+}
+
+#oportuEmpre {
+    text-align: start;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+#divMae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pMae {
+    margin-bottom: 40px ;
+    color: #2C46D1;
+    font-size: 20px;
+}
+
+.nums {
+    display: inline;
+    background-color: #2C46D1;
+    border-radius: 100%;
+    padding: 0px 14px;
+    color: white;
+    padding-bottom: 2.5px;
+    margin-right: 12px;
+}
+
+.conteudo {
+    color: #363636;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#topicos > hr{
+    width: 78%;
+    color: #70B3FF;
+    margin-bottom: 50px;
+}
+
+#border {
+    margin-top: 35px;
+    width: 100%;
+    border-bottom: 1px solid #70B3FF;
+}
+
+#imgPessoa {
+    margin-top: 200px;
+    height: 550px;
+}
+
