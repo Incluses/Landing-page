@@ -21,7 +21,7 @@ function InclusesFinal() {
                     <img src="src/assets/Group 171.png" alt="instagram" className={style.icone}/>
                     <p id={style.textoInstagram}>@diversis_oficial</p>
                     <img src="src/assets/Group 170.png" alt="instagram" className={style.icone}/>
-                    <p id={style.textoInstagram}>@diversis_oficial</p>
+                    <p id={style.textoEmail}>diversis.oficial@gmail.com</p>
                 </div>
                 <button id={style.botao} onClick={voltarInicio}>^ início</button>
             </div>
