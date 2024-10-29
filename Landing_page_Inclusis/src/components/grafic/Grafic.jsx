@@ -4,10 +4,11 @@ import React, { useState, useEffect } from 'react';
 
 function Grafic(){
 
-    const pegarTemaAtual = () => {
-        const storedColor = localStorage.getItem('backgroundColor');
-        return storedColor ? storedColor : 'white';
-  }
+  const pegarTemaAtual = () => {
+    const storedColor = localStorage.getItem('backgroundColor');
+    return storedColor ? storedColor : 'white';
+  } 
+
 
   const [fundoDiv, setFundoDiv] = useState(pegarTemaAtual())
   const [backgroundColor, setBackgroundColor] = useState(pegarTemaAtual());
@@ -24,6 +25,20 @@ function Grafic(){
     trocarTemaAtual(novaCor)
 
   };
+
+  const handleTabPress = (event) => {
+    if (event.key === 'k') {
+      trocarCor()
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleTabPress);
+    
+    return () => {
+      window.removeEventListener('keydown', handleTabPress);
+    };
+  }, []);
 
 
     return(

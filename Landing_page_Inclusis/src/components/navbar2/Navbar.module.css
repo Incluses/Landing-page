@@ -1,10 +1,10 @@
 .nav{
     display: flex;
-    gap: 70%;
     width: fit-content;
     font-size: 25px;
     align-items: center;
     user-select: none;
+    gap: 170%;
 }
 
 .logo{
@@ -47,7 +47,7 @@
 
 .cabecalho{
     display: flex;
-    gap: 25%;
+    gap: 35%;
     margin-top: 1%;
     border-bottom: #2B46D3 1px solid;
 }
@@ -70,4 +70,9 @@
 .pesquisar{
     width: 25px;
     height: 20px;
+}
+
+#temas{
+    display: flex;
+    flex-direction: column;
 }

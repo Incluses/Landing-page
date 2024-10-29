@@ -35,12 +35,11 @@ function Navbar({color1, color2, trocarCor}){
                     <div onClick={() => {goToGrafic()}}>
                         <BotaoNav text="Power BI" color={color1} onClick={goToGrafic()}></BotaoNav>
                     </div>
-                    <div onClick={() => {goToInfos()}}>
-                        <BotaoNav text="Postagens" color={color2}></BotaoNav>
-                    </div>
+                    <div>
                     <img src={srcAtual} id={style.tema} onClick={() => {
                         alternarImagem() 
                         trocarCor()}}></img>
+                    </div>
                     
                     
                 </nav>
