@@ -9,11 +9,6 @@ import { useNavigate } from 'react-router-dom';
 function NavScrollExample() {
   const navigate = useNavigate();
 
-  const handleButtonClick = () => {
-    // Navega para a página "/login" quando o botão é clicado
-    navigate('/login');
-  };
-
   const handleSobreNosClick = () => {
     // Navega para a página que informa quem somos
     navigate('/sobreNos');
@@ -34,7 +29,7 @@ function NavScrollExample() {
             <Nav.Link onClick={handleSobreNosClick} id={style.sobrenos}>Sobre Nós</Nav.Link>
           </Nav>
           <Form className="d-flex">
-            <Button onClick={() => {handleButtonClick()}} variant="outline-success" id={style.acessorestrito}>Acesso restrito</Button>
+            <Button variant="outline-success" id={style.acessorestrito}>Acesso restrito</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
