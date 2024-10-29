@@ -12,7 +12,7 @@
 #img {
     position: relative;
     left: 300px;
-    top: 500px;
+    top: 600px;
     width: 813px;
     height: 560;
     float: right;
@@ -51,7 +51,7 @@
 
 .texto2 {
     position: relative;
-    top: 520px;
+    top: 600px;
     left: 300px;
     z-index: 1;
     font-size: 24px;
