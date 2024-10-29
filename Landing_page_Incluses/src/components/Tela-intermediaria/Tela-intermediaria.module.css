@@ -1,0 +1,29 @@
+.geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.nav{
+    display: flex;
+    align-items: start;
+    padding: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+#text{
+    margin-left: 36%;
+}
+
+#grupo{
+    display: flex;
+    gap: 100px;
+}

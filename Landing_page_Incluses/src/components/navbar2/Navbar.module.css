@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    gap: 60px;
+    width: fit-content;
+    font-size: 25px;
+    align-items: center;
+    user-select: none;
+}
+
+.logo{
+    font-family: "Palanquin", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    color: #2B46D3;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.botao{
+    height: 60px;
+    width: 300px;
+    background-color: #2B46D3;
+    width: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+.cabecalho{
+    display: flex;
+    gap: 25%;
+    margin-top: 1%;
+    border-bottom: #2B46D3 1px solid;
+}
+
+.input{
+    border: none;
+    all: unset;
+}
+
+.inputGeral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 50px;
+    border: solid 0.5px black;
+    padding: 10px;
+}
+
+.pesquisar{
+    width: 25px;
+    height: 20px;
+}

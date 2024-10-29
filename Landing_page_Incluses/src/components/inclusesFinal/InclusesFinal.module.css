@@ -1,0 +1,57 @@
+#app {
+    margin-left: 100px;
+}
+
+#divMae {
+    display: flex;
+    justify-content: space-around;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+#barraStatus {
+    display: flex;
+    border-top: 1px solid #E8F3FF;
+    background-color: #407BFF;
+}
+
+.icone {
+    width: 50px;
+    margin-left: 100px;
+}
+
+#textoInstagram {
+    display: inline;
+    color: white;
+    margin-left: 2px;
+}
+
+#textoEmail {
+    display: inline;
+    color: white;
+    margin-left: 2px;
+}
+
+.redeSocial {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+#incluses {
+    width: 200px;
+}
+
+#botao {
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 500px;
+    padding: 12px 40px 35px 40px;
+    color: #636363;
+}
