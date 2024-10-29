@@ -37,13 +37,7 @@ function NavbarSobreNos() {
             <p id={style.sobreNos}>Sobre Nós</p>
           </Nav>
           <Form className="d-flex">
-            <Button
-              onClick={() => {
-                handleButtonClick();
-              }}
-              variant="outline-success"
-              id={style.acessorestrito}
-            >
+            <Button variant="outline-success" id={style.acessorestrito}>
               Acesso restrito
             </Button>
           </Form>
