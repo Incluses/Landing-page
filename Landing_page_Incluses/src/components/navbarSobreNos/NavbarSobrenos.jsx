@@ -19,7 +19,7 @@ function NavbarSobreNos() {
       <Container fluid>
         <Navbar.Brand href="#">
           <img
-            src="src\assets\WhatsApp_Image_2024-09-03_at_8.26.11_PM-removebg-preview.png"
+            src="src\assets\Group 88.png"
             alt="logoInclusis"
             id={style.logo}
           />
