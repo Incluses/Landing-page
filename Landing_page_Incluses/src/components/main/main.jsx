@@ -4,7 +4,7 @@ import Beneficios from "../beneficios/Beneficios.jsx";
 import Conteudo from "../conteudo/Conteudo.jsx";
 import Empresas from "../empresas/Empresas.jsx";
 import InclusesFinal from "../inclusesFinal/InclusesFinal.jsx";
-import style from "./Main.module.css";
+
 
 function Main(){
     return(
