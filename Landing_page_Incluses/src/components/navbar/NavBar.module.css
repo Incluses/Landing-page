@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;700&display=swap');
 
+@media (max-width: 768px) {
+    #navbar {
+        width: 768px !important;
+    }
+}
+
+
 * {
     font-family: 'Palanquin';
     font-weight: 600 !important;

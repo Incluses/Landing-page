@@ -19,7 +19,7 @@ function InclusesFinal() {
             alt="Logo do app Incluses"
             id={style.logo}
           />
-          <p>
+          <p id={style.textoDiversis}>
             Diversis acontece onde tecnologia e <br />
             diversidade se encontram.
           </p>

@@ -1,3 +1,60 @@
+@media (max-width: 768px) {
+    #app {
+        margin-left: 0px !important;
+        width: 300.01px !important;
+    }
+
+    #textoDiversis{
+        font-size: 14px !important;
+        margin-right: 30px !important;
+    }
+
+    #logo{
+        width: 380px !important;
+        height: 100px !important;
+    }
+
+    #botao{
+        margin-left: 100px !important;
+        font-size: 11px !important;
+        padding: 10px 20px 10px !important;
+    }
+
+    #textoInstagram {
+        display: inline;
+        color: white;
+        margin-right: 20px !important;
+        font-size: 12px !important;
+    }
+    
+    #textoEmail {
+        display: inline;
+        color: white;
+        margin-left: 10px !important;
+        font-size: 12px !important;
+        
+    }
+
+    .icone{
+        margin: 0px !important;
+        margin-right: 0px !important;
+        width: 30px !important;
+    }
+
+    .redeSocial{
+        margin-top: 10px !important;
+        margin-right: 10px !important;
+        margin-left: 5px !important;
+        
+    }
+
+}
+
+
+
+
+
+
 #app {
     margin-left: 90px;
     width: 398.01px;
@@ -61,3 +118,4 @@
 #logo {
     width: 597px;
 }
+

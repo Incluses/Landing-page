@@ -7,10 +7,10 @@
 @media (max-width: 1024px) {
 
     #containerEmpresas {
-        background-image: url('src/assets/WhatsApp Image 2024-10-17 at 09.39.19.jpeg') !important;
+        background-image: url('src/assets/Frame 5.png') !important;
         background-position: -160px center; 
         padding: 13px !important;
-        margin-top: 60px !important;
+        margin-top: 0px !important;
     }
     
     #empresasTexto {
