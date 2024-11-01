@@ -1,6 +1,7 @@
 import style from "./BotaoNav.module.css"
 import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
+import setaBaixo from "../../assets/setaBaixo.png"
 
 function BotaoNav({text,color}){
     return(
