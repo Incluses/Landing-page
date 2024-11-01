@@ -4,6 +4,10 @@
         width: 300.01px !important;
     }
 
+    #incluses{
+        margin-right: 40px !important;
+    }
+
     #textoDiversis{
         font-size: 14px !important;
         margin-right: 30px !important;
@@ -15,9 +19,10 @@
     }
 
     #botao{
-        margin-left: 100px !important;
+        margin-left: 60px !important;
         font-size: 11px !important;
         padding: 10px 20px 10px !important;
+        margin-top: 30px !important;
     }
 
     #textoInstagram {
