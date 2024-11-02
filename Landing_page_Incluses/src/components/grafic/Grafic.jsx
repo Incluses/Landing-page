@@ -1,8 +1,11 @@
 import style from "./Grafic.module.css"
 import Navbar from "../navbar2/Navbar"
 import React, { useState, useEffect } from 'react';
+import temaClaro from "../../assets/modoClaro.png"
+import temaEscuro from "../../assets/modoEscuro.png"
 
 function Grafic(){
+    
 
   const pegarTemaAtual = () => {
     const storedColor = localStorage.getItem('backgroundColor');
@@ -29,6 +32,7 @@ function Grafic(){
   const handleTabPress = (event) => {
     if (event.key === 'k' || event.key === 'K') {
       trocarCor()
+      alternarImagem()
       console.log('passou')
     }
   };

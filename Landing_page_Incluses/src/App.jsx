@@ -6,6 +6,7 @@ import TelaIntermediaria from "./components/Tela-intermediaria/Tela-intermediari
 import Infos from "./components/infos/Infos.jsx";
 import Mobile from "./components/mobile/Mobile.jsx";
 import SobreNos from "./components/sobreNos/SobreNos.jsx";
+import TermosPrivacidade from "./components/termosprivacidade/termosPrivadicade.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/grafic" element={<Grafic/>}/>
         <Route path="/infos" element={<Infos/>}/>
         <Route path="/mobile" element={<Mobile/>}></Route>
+        <Route path="/termosdeprivacidade" element={<TermosPrivacidade/>}></Route>
       </Routes>
     </Router>
   )

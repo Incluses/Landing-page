@@ -4,7 +4,7 @@
     font-size: 25px;
     align-items: center;
     user-select: none;
-    gap: 170%;
+    gap: 130%;
 }
 
 .logo{
@@ -16,6 +16,11 @@
     margin-left: 30px;
     cursor: pointer;
     user-select: none;
+}
+
+#botoes{
+    display: flex;
+    gap: 50%;
 }
 
 #botaotema{
@@ -75,4 +80,17 @@
 #temas{
     display: flex;
     flex-direction: column;
+}
+
+#conjunto{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+#texttema{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
 }
