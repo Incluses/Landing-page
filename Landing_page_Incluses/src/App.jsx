@@ -6,7 +6,7 @@ import TelaIntermediaria from "./components/Tela-intermediaria/Tela-intermediari
 import Infos from "./components/infos/Infos.jsx";
 import Mobile from "./components/mobile/Mobile.jsx";
 import SobreNos from "./components/sobreNos/SobreNos.jsx";
-import TermosPrivacidade from "./components/termosprivacidade/termosPrivadicade.jsx";
+import TermosPrivacidade from "./components/termosprivacidade/termosPrivacidade.jsx";
 
 
 function App() {
