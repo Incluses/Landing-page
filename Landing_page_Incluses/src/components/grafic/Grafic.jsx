@@ -31,6 +31,7 @@ function Grafic(){
 
   const handleTabPress = (event) => {
     if (event.key === 'k' || event.key === 'K') {
+      location.reload()
       trocarCor()
       alternarImagem()
       console.log('passou')
