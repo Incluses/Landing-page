@@ -5,35 +5,28 @@
     font-family: "Palanquin";
   }
 
-#nossaEquipe {
-    position: relative; 
-    height: 450px;
-    width: 1224.06px;
-    bottom: 2000px;
-    left: 100px;
-}
-
-#retanguloRoxo {
-    position: relative;
-    width: 100%;
-    margin-top: 200px;
+#divMae {
+    margin-top: 600px;
+    background-image: url("src/assets/Rectangle 467 (1).png");
+    background-size: cover;
 }
 
 #textoPrincipal {
     position: relative;
     width: 60%;
-    color: white;
     bottom: 465px;
-    left: 150px;
+    left: 250px;
 }
 
 #titulo {
-    text-align: start !important;
     font-size: 36px;
+    color: white;
+    text-align: start;
     font-weight: 700 !important;
 }
 
 .texto {
-    text-align: start !important;
+    color: white !important;
+    text-align: start;
     font-size: 24px;
 }
