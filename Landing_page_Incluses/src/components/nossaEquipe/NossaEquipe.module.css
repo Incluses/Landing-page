@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+
+* {
+    font-family: "Palanquin";
+  }
+
+#nossaEquipe {
+    position: relative; 
+    height: 450px;
+    width: 1224.06px;
+    bottom: 2000px;
+    left: 100px;
+}
+
+#retanguloRoxo {
+    position: relative;
+    width: 100%;
+    margin-top: 200px;
+}
+
+#textoPrincipal {
+    position: relative;
+    width: 60%;
+    color: white;
+    bottom: 465px;
+    left: 150px;
+}
+
+#titulo {
+    text-align: start !important;
+    font-size: 36px;
+    font-weight: 700 !important;
+}
+
+.texto {
+    text-align: start !important;
+    font-size: 24px;
+}
