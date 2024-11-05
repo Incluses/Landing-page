@@ -4,7 +4,7 @@
     font-size: 25px;
     align-items: center;
     user-select: none;
-    gap: 130%;
+    gap: 110%;
 }
 
 .logo{
@@ -30,7 +30,7 @@
 }
 
 #tema{
-    width: 100px;
+    width: 120px;
     cursor: pointer;
     user-select: none;
     margin-left: 50px;

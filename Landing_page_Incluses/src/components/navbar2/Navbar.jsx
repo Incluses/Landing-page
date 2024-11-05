@@ -3,8 +3,8 @@ import BotaoNav from "../botaoNav/BotaoNav"
 import pesquisar from "../../assets/pesquisar.png"
 import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import temaClaro from "../../assets/modoClaro.png"
-import temaEscuro from "../../assets/modoEscuro.png"
+import temaClaro from "../../assets/modoClaroEscuro.png"
+import temaEscuro from "../../assets/modoClaroEscuro.png"
 
 function Navbar({color1, color2, trocarCor}){
 
