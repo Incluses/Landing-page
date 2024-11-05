@@ -23,51 +23,63 @@ function NossaEquipe() {
       <div id={style.fotosPrincipais}>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 249.png" alt="bruna" />
-          <p>Bruna Cardoso</p>
+          <p className={style.nomes}>Bruna Cardoso</p>
+          <p className={style.funcoes}>Desenvolvedora front-end</p>
         </div>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 250.png" alt="diogo" />
-          <p>Diogo Barbosa</p>
+          <p className={style.nomes}>Diogo Barbosa</p>
+          <p className={style.funcoes}>Desenvolvedor full stack</p>
         </div>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 251.png" alt="eduardo" />
-          <p>Eduardo Toledo</p>
+          <p className={style.nomes}>Eduardo Toledo</p>
+          <p className={style.funcoes}>Desenvolvedor front-end</p>
         </div>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 252.png" alt="enrico" />
-          <p>Enrico Piero</p>
+          <p className={style.nomes}>Enrico Piero</p>
+          <p className={style.funcoes}>Desenvolvedor back-end</p>
         </div>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 253.png" alt="gustavo" />
-          <p>Gustavo Henrique</p>
+          <p className={style.nomes}>Gustavo Henrique</p>
+          <p className={style.funcoes}>Desenvolvedor full stack</p>
         </div>
         <div className={style.fotoContainer}>
           <img src="src/assets/Group 254.png" alt="jeff" />
-          <p>Jefferson Custódio</p>
+          <p className={style.nomes}>Jefferson Custódio</p>
+          <p className={style.funcoes}>Desenvolvedor back-end</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 258.png" alt="joao" />
-          <p>João de Abreu</p>
+          <img src="src/assets/Group 255.png" alt="joao" />
+          <p className={style.nomes}>João de Abreu</p>
+          <p className={style.funcoes}>Desenvolvedor back-end</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 259.png" alt="joyce" />
-          <p>Joyce Nicole</p>
+          <img src="src/assets/Group 256.png" alt="joyce" />
+          <p className={style.nomes}>Joyce Nicole</p>
+          <p className={style.funcoes}>Desenvolvedora back-end</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 260.png" alt="luca" />
-          <p>Luca Almeida</p>
+          <img src="src/assets/Group 257.png" alt="luca" />
+          <p className={style.nomes}>Luca Almeida</p>
+          <p className={style.funcoes}>Analista de dados</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 261.png" alt="olivia" />
-          <p>Olívia Farias</p>
+          <img src="src/assets/Group 258.png" alt="olivia" />
+          <p className={style.nomes}>Olívia Farias</p>
+          <p className={style.funcoes}>Analista de dados</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 257.png" alt="rafael" />
-          <p>Rafael Akira</p>
+          <img src="src/assets/Group 259.png" alt="rafael" />
+          <p className={style.nomes}>Rafael Akira</p>
+          <p className={style.funcoes}>Desenvolvedor front-end</p>
         </div>
         <div className={style.fotoContainer}>
-          <img src="src/assets/Group 255.png" alt="renato" />
-          <p>Renato Barros</p>
+          <img src="src/assets/Group 260.png" alt="renato" />
+          <p className={style.nomes}>Renato Barros</p>
+          <p className={style.funcoes}>Desenvolvedor full stack</p>
         </div>
       </div>
     </div>

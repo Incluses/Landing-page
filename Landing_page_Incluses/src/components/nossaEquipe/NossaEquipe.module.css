@@ -42,7 +42,7 @@
     background-color: #ffffff;
     width: 163.51px;
     border-radius: 50px;
-    bottom: 330px;
+    bottom: 300px;
     left: 70px;
 }
 
@@ -54,7 +54,7 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    bottom: 200px;
+    bottom: 230px;
 }
 
 .fotoContainer {
@@ -74,4 +74,14 @@
     margin-top: 10px; 
     font-size: 24px;
     color: #ffffff;
+}
+
+.nomes {
+    font-size: 32px !important;
+    margin-bottom: 0 !important;
+}
+
+.funcoes {
+    margin-top: 0 !important;
+    font-size: 14px !important;
 }
