@@ -9,7 +9,7 @@ function InclusesFinal() {
     <>
       <div id={style.divMae}>
         <img
-          src="src/assets/Group 218.png"
+          src="src\assets\Group 276 (1).png"
           alt="Imagem do app Incluses"
           id={style.app}
         />
@@ -19,10 +19,20 @@ function InclusesFinal() {
             alt="Logo do app Incluses"
             id={style.logo}
           />
-          <p id={style.textoDiversis}>
-            Diversis acontece onde tecnologia e <br />
-            diversidade se encontram.
-          </p>
+          <div id={style.appsPrincipais}>
+            <div id={style.playstore}>
+              <img src="src\assets\Vector.png" alt="logo"  className={style.logoApps}/>
+              <p className={style.tituloApp}>Disponível na Playstore</p>
+              <p className={style.emBrevePlay}>Em breve</p>
+            </div>
+            <div id={style.applestore}>
+              <img src="src\assets\Group.png" alt="logo" className={style.logoApps} />
+              <p className={style.tituloApp}>Disponível na Apple Store</p>
+              <p className={style.emBreveApple}>Em breve</p>
+            </div>
+          </div>
+          
+          <img src="src\assets\caraUsandoCelular 1 (1).png" alt="" id={style.caraUsandoCelular}/>
         </div>
       </div>
       <div id={style.barraStatus}>

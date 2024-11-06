@@ -17,30 +17,21 @@ function Beneficios() {
               <p className={style.nums}>1</p> Conteúdos direcionados
             </p>
             <p className={style.conteudo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-            </p>
-            <p className={style.conteudo}>
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Cursos pensados para fortalecer o empreendedorismo e atender as necessidades específicas da comunidade LGBTQIAPN+ e empresas inclusivas.
             </p>
             <hr />
             <p className={style.pMae}>
               <p className={style.nums}>2</p> Grande relevância curricular
             </p>
             <p className={style.conteudo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-            </p>
-            <p className={style.conteudo}>
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Oferecemos um espaço seguro e inclusivo, onde a comunidade LGBTQIAPN+ pode aprender com liberdade, confiança e apoio para seu desenvolvimento profissional e pessoal.
             </p>
             <hr />
             <p className={style.pMae}>
               <p className={style.nums}>3</p> Mais conforto e transparência
             </p>
             <p className={style.conteudo}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-            </p>
-            <p className={style.conteudo}>
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              No Incluses, criamos um ambiente seguro e inclusivo, onde a comunidade LGBTQIAPN+ pode aprender e se desenvolver com confiança e total apoio.
             </p>
             <hr />
           </div>

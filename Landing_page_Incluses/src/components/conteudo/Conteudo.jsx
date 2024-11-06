@@ -37,8 +37,8 @@ function Conteudo() {
                   <p className={style.numsUsuario}>1</p>Oportunidades de emprego
                 </p>
                 <p className={style.conteudoFilhoDois}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                Encontre vagas inclusivas de empresas comprometidas com a diversidade. Nossa plataforma facilita a conexão entre você e oportunidades profissionais onde você pode ser quem realmente é.
+
                 </p>
 
                 <p id={style.pMaeDoisUsuario}>
