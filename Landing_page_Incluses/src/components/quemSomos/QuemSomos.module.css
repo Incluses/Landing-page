@@ -1,60 +1,179 @@
-#pessoas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 500px !important;
-    background-image: url('src/assets/Group 244.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Palanquin+Dark:wght@400;500;600;700&display=swap");
+
+@media (max-width: 768px) {
+
+  
+  #quemSomos {
+    position: relative !important;
+    bottom: 110px !important;
+    margin-right: 500px !important;
+  }
+
+  #quemSomosTexto {
+    font-size: 14px !important;
+  }
+
+  #textoDiversis {
+    position: relative;
+    font-size: 25px !important;
+    bottom: 70px !important;
+    right: 100px !important;
+    text-align: start !important;
+  }
+
+  #fundoAmarelo {
+    width: 115px !important;
+  }
+
+  #pessoas {
+    background-image: url("src\\assets\\fundoAzul.png") !important;
+    background-position: -450px center !important;
+  }
+
+  #imgPessoas {
+    position: relative;
+    width: 395px !important;
+    height: 390px !important;
+    margin-right: 240px !important;
+  }
+
+  #nossaEmpresa {
+    position: relative;
+    right: 100px;
+  }
+
+  #nossaEmpresaTexto {
+    font-size: 14px;
+    padding: 3px 1px !important;
+  }
+
+  #textoEmpre {
+    position: relative;
+    font-size: 16px !important;
+    left: 15px;
+  }
+
+  #imgPessoa {
+    position: relative;
+    width: 300px !important;
+    height: 300px !important;
+    right: 30px;
+  }
+
+  #texto2 {
+    top: 470px !important;
+    left: 160px !important;
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
 }
 
-#img {
-    position: relative;
-    left: 300px;
-    top: 600px;
-    width: 813px;
-    height: 560;
-    float: right;
+#textoDiversis > p,
+#textoDiversis > p > p {
+  font-family: "Palanquin Dark" !important;
+}
+
+#pessoas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px !important;
+  background-image: url("src\\assets\\fundoAzul.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#imgPessoas {
+  position: relative;
+  left: 300px;
+  top: 600px;
+  width: 813px;
+  height: 560px;
+  float: right;
 }
 
 #nossaEmpresa {
-    position: relative;
-    top: 40px;
-    margin-left: 120px;
+  position: relative;
+  top: 40px;
+  margin-left: 120px;
 }
 
 #nossaEmpresaTexto {
-    position: relative;
-    color: #2C46D1 ;
-    padding: 8px 8px;
-    font-weight: 700 !important;
+  position: relative;
+  color: #2c46d1;
+  padding: 8px 8px;
+  font-weight: 700 !important;
 }
 
 #nossaEmpresaFilha {
-    background-color: #E8F3FF;
-    width: 163.51px;
-    border-radius: 50px;
+  background-color: #e8f3ff;
+  width: 163.51px;
+  border-radius: 50px;
 }
 
 #imgPessoa {
-    width: 450px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
+  width: 450px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
-.texto {
-    font-size: 24px;
-    text-align: start;
+#textoEmpre {
+  font-size: 24px;
+  text-align: start;
 }
 
-.texto2 {
-    position: relative;
-    top: 620px;
-    left: 300px;
-    z-index: 1;
-    font-size: 24px;
-    text-align: start;
-    line-height: 50px;
+#texto2 {
+  position: relative;
+  top: 470px;
+  left: 300px;
+  z-index: 1;
+  font-size: 24px;
+  text-align: start;
+  line-height: 50px;
+}
+
+#quemSomos {
+  position: relative;
+  bottom: 200px;
+  margin-right: 1270px;
+}
+
+#quemSomosTexto {
+  position: relative;
+  color: #2c46d1;
+  background-color: #ffffff;
+  width: 163.51px;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+
+#textoDiversis {
+  position: relative;
+  font-size: 40px;
+  bottom: 180px;
+  right: 340px;
+  text-align: start;
+}
+
+#fundoAmarelo {
+  position: relative;
+  display: inline;
+  background-color: #fff585;
+  border-radius: 20px;
+  width: 190px;
+  bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.fundoAzul {
+  display: inline;
+  background-color: #8bc1ff;
+  padding: 0px 10px 1px 10px;
+  border-radius: 20px;
+}
+
+#textoDiversis > p {
+  display: inline;
 }

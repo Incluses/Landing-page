@@ -1,8 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
+@media (max-width: 768px){
+    #divMae {
+        overflow-x: hidden;
+    }
 
+    #nossaEquipe {
+        position: relative !important;
+        bottom: 120px !important;
+        margin-right: 500px !important;
+      }
+
+      #nossaEquipeFilha {
+        left: 20px !important;
+        bottom: 160px !important;
+      }
+    
+      #nossaEquipeTexto {
+        position: relative !important;
+        font-size: 14px !important;
+        padding: 2px 0px !important;
+        padding-left: 0px !important;
+      }
+
+      #textoPrincipal {
+        position: relative;
+        width: 500px !important;
+        bottom: 325px !important;
+        left: 60px !important;
+    }
+
+    #divMae {
+        margin-top: 400px !important;
+        background-image: url("src/assets/Rectangle 467 (1).png") !important;
+        background-size: cover !important;
+    }
+
+    #imgBloco {
+        position: relative !important;
+        width: 800px !important ;
+        height: 400px !important;
+        right: 30px !important;
+    }
+
+    .textoEmpreDi {
+        font-size: 17px !important;
+    }
+
+    #titulo {
+        font-size: 25px !important;
+    }
+
+    #fotosPrincipais {
+        bottom: 120px !important;
+    }
+
+}
 * {
     font-family: "Palanquin";
+    font-size: 100%;
   }
 
 #divMae {
@@ -25,7 +81,7 @@
     font-weight: 700 !important;
 }
 
-.texto {
+.textoEmpreDi {
     color: white !important;
     text-align: start;
     font-size: 24px;
@@ -65,8 +121,8 @@
 }
 
 .fotoContainer img {
-    width: 220px;
-    height: 220px;
+    width: 60%;
+    height: 70%;
     box-sizing: border-box;
 }
 
@@ -77,11 +133,11 @@
 }
 
 .nomes {
-    font-size: 32px !important;
+    font-size: 2vw !important;
     margin-bottom: 0 !important;
 }
 
 .funcoes {
     margin-top: 0 !important;
-    font-size: 14px !important;
+    font-size: 1vw !important;
 }

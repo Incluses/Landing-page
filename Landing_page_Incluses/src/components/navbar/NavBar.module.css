@@ -4,6 +4,15 @@
     #navbar {
         width: 768px !important;
     }
+  
+    #sobrenos{
+      margin-right: 38px !important;
+    }
+  
+    #acessorestrito {
+      width: 90% !important;
+      margin-left: 5px;
+    }
 }
 
 

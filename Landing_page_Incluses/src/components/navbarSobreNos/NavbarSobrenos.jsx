@@ -34,7 +34,7 @@ function NavbarSobreNos() {
             <Nav.Link onClick={handleSobreNosClick} id={style.inicio}>
               Início
             </Nav.Link>
-            <p id={style.sobreNos}>Sobre Nós</p>
+            <p id={style.sobrenos}>Sobre Nós</p>
           </Nav>
           <Form className="d-flex">
             <Button variant="outline-success" id={style.acessorestrito}>
