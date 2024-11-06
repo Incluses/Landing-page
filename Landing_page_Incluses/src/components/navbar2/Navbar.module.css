@@ -4,8 +4,7 @@
     font-size: 25px;
     align-items: center;
     user-select: none;
-    gap: 170%;
-    
+    gap: 110%;
 }
 
 .logo{
@@ -19,6 +18,11 @@
     user-select: none;
 }
 
+#botoes{
+    display: flex;
+    gap: 50%;
+}
+
 #botaotema{
     border: none;
     cursor: pointer;
@@ -26,7 +30,7 @@
 }
 
 #tema{
-    width: 100px;
+    width: 120px;
     cursor: pointer;
     user-select: none;
     margin-left: 50px;
@@ -76,4 +80,17 @@
 #temas{
     display: flex;
     flex-direction: column;
+}
+
+#conjunto{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+#texttema{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
 }

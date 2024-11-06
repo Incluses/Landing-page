@@ -3,8 +3,8 @@ import BotaoNav from "../botaoNav/BotaoNav"
 import pesquisar from "../../assets/pesquisar.png"
 import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import temaClaro from "../../assets/modoClaro.png"
-import temaEscuro from "../../assets/modoEscuro.png"
+import temaClaro from "../../assets/modoClaroEscuro.png"
+import temaEscuro from "../../assets/modoClaroEscuro.png"
 
 function Navbar({color1, color2, trocarCor}){
 
@@ -14,11 +14,22 @@ function Navbar({color1, color2, trocarCor}){
         setSrcAtual((prevSrc) => (prevSrc === temaClaro ? temaEscuro : temaClaro));
     };
 
+    const handleTabPress = (event) => {
+        if (event.key === 'k' || event.key === 'K') {
+          alternarImagem()
+          console.log('passou')
+        }
+      };
+
 
     const navigate = useNavigate();
 
     const goToGrafic = () => {
         navigate('/grafic')
+    }
+
+    const goToTermos = () => {
+        navigate('/termosdeprivacidade')
     }
 
     const goToInfos = () => {
@@ -30,18 +41,16 @@ function Navbar({color1, color2, trocarCor}){
     }
     return(
         <div className={style.cabecalho} >
-                <p className={style.logo} onClick={() => {goToMain()}}>Incluses</p>
                 <nav className={style.nav}>
-                    <div onClick={() => {goToGrafic()}}>
-                        <BotaoNav text="Power BI" color={color1} onClick={goToGrafic()}></BotaoNav>
+                <p className={style.logo} onClick={() => {goToMain()}}>Incluses</p>
+                    <div id={style.botoes}>
+                        <div onClick={() => {goToGrafic()}}>
+                            <BotaoNav text="Power BI" color={color1} ></BotaoNav>
+                        </div>
                     </div>
-                    <div>
                     <img src={srcAtual} id={style.tema} onClick={() => {
                         alternarImagem() 
                         trocarCor()}}></img>
-                    </div>
-                    
-                    
                 </nav>
             </div>
     )
