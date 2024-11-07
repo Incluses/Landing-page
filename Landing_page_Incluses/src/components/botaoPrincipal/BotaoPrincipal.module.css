@@ -1,22 +1,22 @@
-.botao{
-    padding-top:6%;
-    padding-top:6%;
-    width: fit-content;
-    padding-left: 80%;
-    padding-right: 80%;
-    display: flex;
-    justify-content: center;
-    color: white;
-    border-radius: 10px;
-    font-style: bold;
-    cursor: pointer;
-    user-select: none;
+.botao {
+  padding-top: 6%;
+  padding-top: 6%;
+  width: fit-content;
+  padding-left: 80%;
+  padding-right: 80%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-style: bold;
+  cursor: pointer;
+  user-select: none;
 }
 
-@media screen and (max-width: 812px){
-   .botao{ 
-    padding-left:130px;
+@media screen and (max-width: 812px) {
+  .botao {
+    padding-left: 130px;
     padding-right: 130px;
     margin-left: 13%;
-   }
+  }
 }

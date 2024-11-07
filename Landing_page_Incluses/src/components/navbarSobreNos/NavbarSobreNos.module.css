@@ -2,10 +2,10 @@
 
 @media (max-width: 768px) {
   #navbar {
-      width: 768px !important;
+    width: 768px !important;
   }
 
-  #sobrenos{
+  #sobrenos {
     margin-right: 38px !important;
   }
 

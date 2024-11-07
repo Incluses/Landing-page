@@ -1,143 +1,142 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
-@media (max-width: 768px){
-    #divMae {
-        overflow-x: hidden;
-    }
-
-    #nossaEquipe {
-        position: relative !important;
-        bottom: 120px !important;
-        margin-right: 500px !important;
-      }
-
-      #nossaEquipeFilha {
-        left: 20px !important;
-        bottom: 160px !important;
-      }
-    
-      #nossaEquipeTexto {
-        position: relative !important;
-        font-size: 14px !important;
-        padding: 2px 0px !important;
-        padding-left: 0px !important;
-      }
-
-      #textoPrincipal {
-        position: relative;
-        width: 500px !important;
-        bottom: 325px !important;
-        left: 60px !important;
-    }
-
-    #divMae {
-        margin-top: 400px !important;
-        background-image: url("src/assets/Rectangle 467 (1).png") !important;
-        background-size: cover !important;
-    }
-
-    #imgBloco {
-        position: relative !important;
-        width: 800px !important ;
-        height: 400px !important;
-        right: 30px !important;
-    }
-
-    .textoEmpreDi {
-        font-size: 17px !important;
-    }
-
-    #titulo {
-        font-size: 25px !important;
-    }
-
-    #fotosPrincipais {
-        bottom: 120px !important;
-    }
-
-}
-* {
-    font-family: "Palanquin";
-    font-size: 100%;
+@media (max-width: 768px) {
+  #divMae {
+    overflow-x: hidden;
   }
 
+  #nossaEquipe {
+    position: relative !important;
+    bottom: 120px !important;
+    margin-right: 500px !important;
+  }
+
+  #nossaEquipeFilha {
+    left: 20px !important;
+    bottom: 160px !important;
+  }
+
+  #nossaEquipeTexto {
+    position: relative !important;
+    font-size: 14px !important;
+    padding: 2px 0px !important;
+    padding-left: 0px !important;
+  }
+
+  #textoPrincipal {
+    position: relative;
+    width: 500px !important;
+    bottom: 325px !important;
+    left: 60px !important;
+  }
+
+  #divMae {
+    margin-top: 400px !important;
+    background-image: url("src/assets/Rectangle 467 (1).png") !important;
+    background-size: cover !important;
+  }
+
+  #imgBloco {
+    position: relative !important;
+    width: 800px !important ;
+    height: 400px !important;
+    right: 30px !important;
+  }
+
+  .textoEmpreDi {
+    font-size: 17px !important;
+  }
+
+  #titulo {
+    font-size: 25px !important;
+  }
+
+  #fotosPrincipais {
+    bottom: 120px !important;
+  }
+}
+* {
+  font-family: "Palanquin";
+  font-size: 100%;
+}
+
 #divMae {
-    margin-top: 600px;
-    background-image: url("src/assets/Rectangle 467 (1).png");
-    background-size: cover;
+  margin-top: 600px;
+  background-image: url("src/assets/Rectangle 467 (1).png");
+  background-size: cover;
 }
 
 #textoPrincipal {
-    position: relative;
-    width: 60%;
-    bottom: 465px;
-    left: 250px;
+  position: relative;
+  width: 60%;
+  bottom: 465px;
+  left: 250px;
 }
 
 #titulo {
-    font-size: 36px;
-    color: white;
-    text-align: start;
-    font-weight: 700 !important;
+  font-size: 36px;
+  color: white;
+  text-align: start;
+  font-weight: 700 !important;
 }
 
 .textoEmpreDi {
-    color: white !important;
-    text-align: start;
-    font-size: 24px;
+  color: white !important;
+  text-align: start;
+  font-size: 24px;
 }
 
 #nossaEquipeTexto {
-    color: #2C46D1 ;
-    padding: 8px 8px;
-    font-weight: 700 !important;
+  color: #2c46d1;
+  padding: 8px 8px;
+  font-weight: 700 !important;
 }
 
 #nossaEquipeFilha {
-    position: relative;
-    background-color: #ffffff;
-    width: 163.51px;
-    border-radius: 50px;
-    bottom: 300px;
-    left: 70px;
+  position: relative;
+  background-color: #ffffff;
+  width: 163.51px;
+  border-radius: 50px;
+  bottom: 300px;
+  left: 70px;
 }
 
 #fotosPrincipais {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    bottom: 230px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 230px;
 }
 
 .fotoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .fotoContainer img {
-    width: 60%;
-    height: 70%;
-    box-sizing: border-box;
+  width: 60%;
+  height: 70%;
+  box-sizing: border-box;
 }
 
 .fotoContainer p {
-    margin-top: 10px; 
-    font-size: 24px;
-    color: #ffffff;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .nomes {
-    font-size: 2vw !important;
-    margin-bottom: 0 !important;
+  font-size: 2vw !important;
+  margin-bottom: 0 !important;
 }
 
 .funcoes {
-    margin-top: 0 !important;
-    font-size: 1vw !important;
+  margin-top: 0 !important;
+  font-size: 1vw !important;
 }

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
-@media (max-width: 1024px) {
-
+@media (max-width: 768px) {
   #container {
     padding-bottom: 100px;
   }
@@ -12,9 +11,11 @@
   }
 
   #imagemOrganizacaoDois {
+    position: relative;
     width: 300px !important;
     height: 200px !important;
-    margin-right: 60px !important;
+    margin-right: 1px !important;
+    right: 20px;
   }
 
   .pMaeUsuario,
@@ -26,13 +27,13 @@
   }
 
   .pMaeUsuario {
-    margin-right: 157px !important;
+    margin-right: 323px !important;
   }
 
   #pMaeUmUsuario {
     margin-right: 162px !important;
   }
-  
+
   #pMaeUmEmpresa {
     margin-right: 162px !important;
   }
@@ -41,9 +42,14 @@
     margin-right: 8px !important;
   }
 
-  .conteudoFilhoDois, .conteudoFilho {
-    font-size: 11px !important;
+  .conteudoFilhoDois,
+  .conteudoFilho {
+    font-size: 10px !important;
     margin-bottom: 30px !important;
+  }
+
+  .conteudoFilhoDois {
+    width: 370px !important;
   }
 
   #imagemOrganizacao {
@@ -52,15 +58,16 @@
     width: 300px !important;
     height: 200px !important;
     margin-right: 60px !important;
-    margin-left: 0px !important;
+    margin-left: 25px !important;
   }
 
   #conteudo {
     margin: 40px 0px 0px 40px !important;
-}
+  }
 
   #conteudoDois {
     margin-top: 40px !important;
+    right: 45px !important;
   }
 
   #beneficios {
@@ -219,7 +226,7 @@
 }
 
 .pMaeUsuario {
-  margin-right: 120px;
+  margin-right: 273px;
 }
 
 #conteudo {
@@ -264,7 +271,7 @@
 }
 
 #pMaeDoisUsuario {
-  margin-right: 290px;
+  margin-right: 450px;
 }
 
 #conteudoDois {

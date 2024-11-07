@@ -1,32 +1,31 @@
 @media (max-width: 1024px) {
-    .botaoUm{
-        font-size: 14px !important;
-        width: 130.21px !important;
-        height: 60px !important;
-        width: 110.21px !important;
-        height: 55px !important;
-    }
+  .botaoUm {
+    font-size: 14px !important;
+    width: 130.21px !important;
+    height: 60px !important;
+    width: 110.21px !important;
+    height: 55px !important;
+  }
 }
 
-
-.botaoUm{
-    color: #2C46D1;
-    background-color: #eaf1ff;
-    border-color: #eaf1ff;
-    font-weight: 700;
-    font-size: 15px;
-    width: 145.21px;
-    height: 67px;
-    border-radius: 35.5px;
-    margin-left: 10px;
+.botaoUm {
+  color: #2c46d1;
+  background-color: #eaf1ff;
+  border-color: #eaf1ff;
+  font-weight: 700;
+  font-size: 15px;
+  width: 145.21px;
+  height: 67px;
+  border-radius: 35.5px;
+  margin-left: 10px;
 }
 
-.botaoUm:hover{
-    background-color: #80a7fe;
-    border-color: #80a7fe;
+.botaoUm:hover {
+  background-color: #80a7fe;
+  border-color: #80a7fe;
 }
 
-.botaoUm:active{
-    background-color: #3575ff;
-    border-color: #3575ff;
+.botaoUm:active {
+  background-color: #3575ff;
+  border-color: #3575ff;
 }

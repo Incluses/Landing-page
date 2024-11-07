@@ -21,18 +21,30 @@ function InclusesFinal() {
           />
           <div id={style.appsPrincipais}>
             <div id={style.playstore}>
-              <img src="src\assets\Vector.png" alt="logo"  className={style.logoApps}/>
+              <img
+                src="src\assets\Vector.png"
+                alt="logo"
+                className={style.logoApps}
+              />
               <p className={style.tituloApp}>Disponível na Playstore</p>
               <p className={style.emBrevePlay}>Em breve</p>
             </div>
             <div id={style.applestore}>
-              <img src="src\assets\Group.png" alt="logo" className={style.logoApps} />
+              <img
+                src="src\assets\Group.png"
+                alt="logo"
+                className={style.logoApps}
+              />
               <p className={style.tituloApp}>Disponível na Apple Store</p>
               <p className={style.emBreveApple}>Em breve</p>
             </div>
           </div>
-          
-          <img src="src\assets\caraUsandoCelular 1 (1).png" alt="" id={style.caraUsandoCelular}/>
+
+          <img
+            src="src\assets\caraUsandoCelular 1 (1).png"
+            alt=""
+            id={style.caraUsandoCelular}
+          />
         </div>
       </div>
       <div id={style.barraStatus}>

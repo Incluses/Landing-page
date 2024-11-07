@@ -1,208 +1,205 @@
 @media (max-width: 768px) {
-    #app {
-        margin-left: -100px !important;
-        width: 590.01px !important;
-        height: 650px !important;
-        
-    }
+  #app {
+    margin-left: -160px !important;
+    width: 690.01px !important;
+    height: 650px !important;
+  }
 
-    #incluses {
-        margin-right: 40px !important;
-    }
+  #incluses {
+    margin-right: 40px !important;
+  }
 
-    #textoDiversis {
-        font-size: 14px !important;
-        margin-right: 30px !important;
-    }
+  #textoDiversis {
+    font-size: 14px !important;
+    margin-right: 30px !important;
+  }
 
-    #logo {
-        position: relative !important;
-        width: 400px !important;
-        height: 100px !important;
-        right: 110px !important;    
-        top: 20px;
-    }
+  #logo {
+    position: relative !important;
+    width: 400px !important;
+    height: 100px !important;
+    right: 150px !important;
+    top: 20px;
+  }
 
-    #appsPrincipais {
-        position: relative !important;
-        right: 100px;
-        top: 70px;
-    }
+  #appsPrincipais {
+    position: relative !important;
+    right: 140px;
+    top: 70px;
+  }
 
-    #botao {
-        margin-left: 60px !important;
-        font-size: 11px !important;
-        padding: 10px 20px 10px !important;
-        margin-top: 30px !important;
-    }
+  #botao {
+    margin-left: 60px !important;
+    font-size: 11px !important;
+    padding: 10px 20px 10px !important;
+    margin-top: 30px !important;
+  }
 
-    #textoInstagram {
-       
-        display: inline;
-        color: white;
-        margin-right: 20px !important;
-        font-size: 12px !important;
-    }
-    
-    #textoEmail {
-        display: inline;
-        color: white;
-        margin-left: 10px !important;
-        font-size: 12px !important;
-    }
+  #textoInstagram {
+    display: inline;
+    color: white;
+    margin-right: 20px !important;
+    font-size: 12px !important;
+  }
 
-    .icone {
-        margin: 0px !important;
-        margin-right: 0px !important;
-        width: 30px !important;
-    }
+  #textoEmail {
+    display: inline;
+    color: white;
+    margin-left: 10px !important;
+    font-size: 12px !important;
+  }
 
-    .redeSocial {
-        margin-top: 10px !important;
-        margin-right: 10px !important;
-        margin-left: 5px !important;
-    }
+  .icone {
+    margin: 0px !important;
+    margin-right: 0px !important;
+    width: 30px !important;
+  }
 
-    #caraUsandoCelular {
-       display: none !important;
-    }
+  .redeSocial {
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+  }
+
+  #caraUsandoCelular {
+    display: none !important;
+  }
 }
 
 #caraUsandoCelular {
-    position: relative;
-    width: 450px;
-    height: 302px;
-    left: 70px;
-    top: 1px;
+  position: relative;
+  width: 450px;
+  height: 302px;
+  left: 70px;
+  top: 1px;
 }
 
 #app {
-    width: 790px;
-    height: 690px;
-    margin-top: 200px;
-    margin-bottom: 0px;
+  width: 790px;
+  height: 690px;
+  margin-top: 200px;
+  margin-bottom: 0px;
 }
 
 #divMae {
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px solid #70B3FF;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #70b3ff;
+  overflow-x: hidden;
 }
 
 #barraStatus {
-    display: flex;
-    border-top: 1px solid #E8F3FF;
-    background-color: #407BFF;
+  display: flex;
+  border-top: 1px solid #e8f3ff;
+  background-color: #407bff;
 }
 
 .icone {
-    width: 50px;
-    margin-left: 100px;
+  width: 50px;
+  margin-left: 100px;
 }
 
 #textoInstagram {
-    display: inline;
-    color: white;
-    margin-left: 2px;
+  display: inline;
+  color: white;
+  margin-left: 2px;
 }
 
 #textoEmail {
-    display: inline;
-    color: white;
-    margin-left: 2px;
+  display: inline;
+  color: white;
+  margin-left: 2px;
 }
 
 .redeSocial {
-    padding-top: 30px;
-    margin-left: 30px;
+  padding-top: 30px;
+  margin-left: 30px;
 }
 
 #incluses {
-    width: 200px;
-    margin-top: 0px;
+  width: 200px;
+  margin-top: 0px;
 }
 
 #botao {
-    height: 40px;
-    border: none;
-    border-radius: 12px;
-    margin-top: 30px;
-    margin-left: 500px;
-    padding: 12px 40px 35px 40px;
-    color: #636363;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 500px;
+  padding: 12px 40px 35px 40px;
+  color: #636363;
 }
 
 #logo {
-    margin-top: 200px;
-    width: 650px;
-    margin-right: 130px;
+  margin-top: 200px;
+  width: 650px;
+  margin-right: 130px;
 }
 
 #appsPrincipais {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin-top: 40px;
-    text-align: center;
-    margin-right: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+  text-align: center;
+  margin-right: 220px;
 }
 
 .tituloApp {
-    font-size: 18px; 
-    margin-bottom: -5px;
-    font-weight: bold;
+  font-size: 18px;
+  margin-bottom: -5px;
+  font-weight: bold;
 }
 
 .emBreveApple {
-    font-size: 14px;
-    color: #E5E5E5;
+  font-size: 14px;
+  color: #e5e5e5;
 }
 
 .emBrevePlay {
-    font-size: 14px;
-    color: #696969;
+  font-size: 14px;
+  color: #696969;
 }
 
-#playstore, #applestore {
-    border-radius: 200px;
-    padding: 0; 
-    text-align: center;
-    width: 340px; 
-    height: 80px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    flex-direction: column; 
-    font-size: 14px;
-    padding-top: 10px; 
-    padding-bottom: 5px; 
-    
+#playstore,
+#applestore {
+  border-radius: 200px;
+  padding: 0;
+  text-align: center;
+  width: 340px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 #playstore {
-    background-color: #ffffff; 
-    color: #000;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Exemplo de sombra */
-
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Exemplo de sombra */
 }
 
 #applestore {
-    background-color: #000000; 
-    color: #fff;
+  background-color: #000000;
+  color: #fff;
 }
 
-#playstore p, #applestore p {
-    position: relative;
-    padding-left: 100px; 
-    bottom: 45px;
+#playstore p,
+#applestore p {
+  position: relative;
+  padding-left: 100px;
+  bottom: 45px;
 }
 
 .logoApps {
-    width:40px;
-    height: 43px;
-    margin-left: 20px;
-    margin-top: 10px;
+  width: 40px;
+  height: 43px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
-
-

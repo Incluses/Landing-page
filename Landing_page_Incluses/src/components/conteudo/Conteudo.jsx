@@ -37,16 +37,19 @@ function Conteudo() {
                   <p className={style.numsUsuario}>1</p>Oportunidades de emprego
                 </p>
                 <p className={style.conteudoFilhoDois}>
-                Encontre vagas inclusivas de empresas comprometidas com a diversidade. Nossa plataforma facilita a conexão entre você e oportunidades profissionais onde você pode ser quem realmente é.
-
+                  Encontre vagas inclusivas de empresas comprometidas com a
+                  diversidade. <br />
+                  Nossa plataforma facilita a conexão entre você e oportunidades
+                  profissionais onde você pode ser quem realmente é.
                 </p>
 
                 <p id={style.pMaeDoisUsuario}>
                   <p className={style.numsUsuario}>2</p>Network
                 </p>
                 <p className={style.conteudoFilhoDois}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                  Amplie sua rede de contatos em um ambiente acolhedor,
+                  conectando-se a outros profissionais e empresas que valorizam
+                  a inclusão e a diversidade.
                 </p>
 
                 <p className={style.pMaeUsuario}>
@@ -54,8 +57,9 @@ function Conteudo() {
                   tranparência
                 </p>
                 <p className={style.conteudoFilhoDois}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                  Sinta-se seguro para crescer em um espaço inclusivo, onde você
+                  pode buscar oportunidades e compartilhar experiências com
+                  confiança.
                 </p>
               </div>
             </div>
@@ -72,16 +76,18 @@ function Conteudo() {
                   <p className={style.numsEmpresa}>1</p>Oportunidades de emprego
                 </p>
                 <p className={style.conteudoFilho}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                  Atraia talentos incríveis e diversos para sua empresa, com
+                  vagas que promovem a inclusão e a equidade no ambiente de
+                  trabalho.
                 </p>
 
                 <p id={style.pMaeDoisEmpresa}>
                   <p className={style.numsEmpresa}>2</p>Network
                 </p>
                 <p className={style.conteudoFilho}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                  Conecte-se com uma rede de empresas e profissionais que
+                  acreditam em um mercado mais justo e inclusivo, expandindo
+                  suas oportunidades de colaboração.
                 </p>
 
                 <p className={style.pMaeEmpresa}>
@@ -89,8 +95,9 @@ function Conteudo() {
                   tranparência
                 </p>
                 <p className={style.conteudoFilho}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed{" "}
-                  <br /> do eiusmod temporqua.
+                  Ofereça um ambiente de trabalho transparente e acolhedor, onde
+                  a diversidade é respeitada e valorizada, garantindo mais
+                  satisfação e retenção de talentos.
                 </p>
               </div>
             </div>

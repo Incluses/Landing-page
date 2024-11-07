@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Palanquin+Dark:wght@400;500;600;700&display=swap");
 
 @media (max-width: 768px) {
-
-  
   #quemSomos {
     position: relative !important;
     bottom: 110px !important;

@@ -1,15 +1,17 @@
-import style from "./BotaoNav.module.css"
-import { useNavigate } from 'react-router-dom';
-import React, { useState } from 'react';
-import setaBaixo from "../../assets/setabaixo.png"
+import style from "./BotaoNav.module.css";
+import { useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import setaBaixo from "../../assets/setabaixo.png";
 
-function BotaoNav({text,color}){
-    return(
-        <div className={style.geral}>
-            <p className={style.text} style={{color:color}}>{text}</p>
-            <img src={setaBaixo} alt="seta para baixo" className={style.img}/>
-        </div>
-    )
+function BotaoNav({ text, color }) {
+  return (
+    <div className={style.geral}>
+      <p className={style.text} style={{ color: color }}>
+        {text}
+      </p>
+      <img src={setaBaixo} alt="seta para baixo" className={style.img} />
+    </div>
+  );
 }
 
-export default BotaoNav
+export default BotaoNav;

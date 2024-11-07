@@ -1,63 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;700&display=swap");
 
 @media (max-width: 768px) {
-    #navbar {
-        width: 768px !important;
-    }
-  
-    #sobrenos{
-      margin-right: 38px !important;
-    }
-  
-    #acessorestrito {
-      width: 90% !important;
-      margin-left: 5px;
-    }
+  #navbar {
+    width: 768px !important;
+  }
+
+  #sobrenos {
+    margin-right: 38px !important;
+  }
+
+  #acessorestrito {
+    width: 90% !important;
+    margin-left: 5px;
+  }
 }
 
-
 * {
-    font-family: 'Palanquin';
-    font-weight: 600 !important;
+  font-family: "Palanquin";
+  font-weight: 600 !important;
 }
 
 #navbar {
-    position: fixed;
-    padding: 2vh;
-    padding-left: 20vh !important;
-    padding-right: 20vh !important;
-    background-color: white !important;
-    border-bottom: 1px solid #70B3FF;
-    width: 100%;
-    z-index: 2;
+  position: fixed;
+  padding: 2vh;
+  padding-left: 20vh !important;
+  padding-right: 20vh !important;
+  background-color: white !important;
+  border-bottom: 1px solid #70b3ff;
+  width: 100%;
+  z-index: 2;
 }
 
 #sobrenos {
-    font-weight: larger !important;
-    margin-top: 7px;
+  font-weight: larger !important;
+  margin-top: 7px;
 }
 
 #acessorestrito {
-    padding: 12px 18px !important;
-    color: #0000F9 !important;
-    border-color: #0000F9;
-    border-radius: 7px;
-}   
+  padding: 12px 18px !important;
+  color: #0000f9 !important;
+  border-color: #0000f9;
+  border-radius: 7px;
+}
 #acessorestrito:hover {
-    background-color: #0000F9 !important;
-    color: white !important;
-    transition: 0.4s !important;
+  background-color: #0000f9 !important;
+  color: white !important;
+  transition: 0.4s !important;
 }
 
 #logo {
-    width: 110px !important;
-    height: 35px !important;
-    margin-right: 50px !important;
+  width: 110px !important;
+  height: 35px !important;
+  margin-right: 50px !important;
 }
 
 #inicio {
-    margin-right: 40px;
-    margin-top: 14px;
-    color: #407BFF;
-    border-bottom: 3px solid ;
+  margin-right: 40px;
+  margin-top: 14px;
+  color: #407bff;
+  border-bottom: 3px solid;
 }
