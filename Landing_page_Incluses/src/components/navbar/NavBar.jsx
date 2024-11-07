@@ -14,9 +14,10 @@ function NavScrollExample() {
     navigate("/sobreNos");
   };
   const handleAreaRestritaClick = () => {
-    // Navega para a página que informa quem somos
-    navigate("/grafic");
+    window.location.href = 'https://servletsfinaloficial-2.onrender.com/';
   };
+
+
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary" id={style.navbar}>
