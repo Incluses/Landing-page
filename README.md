@@ -10,9 +10,19 @@ Esse projeto, tem a landing page, com algumas informações para o usuário conh
 e uma tela de gráficos para adms.
 
 ## Tecnologias Utilizadas
+### Front-end
 
 - **React** — Biblioteca JavaScript para construção de interfaces de usuário
 - **React Router** — Navegação entre páginas
-- **bootstrap** — desygn system
+- **CSS e HTML** - Usada para otimização do site e sua estilização
+
+### Back-end
+
+- **JavaScript** - Foi usada para encaminhar para telas e realizar efeitos especiais no site
+
+  ## Framework utilizado
+  - **Bootstrap** - Um framework de CSS para facilitar o desenvolvimento de layouts responsivos e estilizados.
+
+
 
 
