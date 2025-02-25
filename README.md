@@ -1,6 +1,8 @@
+![Incluses Logo](Landing_page_Incluses/src/assets/Logo.png) 
+
 # Landing Page - App Incluses
 
-![Incluses Logo](logo.png)  
+ 
 
 Repositório para o desenvolvimento da landing page do **App Incluses**, um aplicativo voltado para oferecer empregos a pessoas da comunidade **LGBTQIAPN+**, além de disponibilizar cursos de empreendedorismo.
 
@@ -110,13 +112,8 @@ Landing-page/
 
 Este projeto está sob a **Licença MIT** - consulte o arquivo `LICENSE` para mais detalhes.
 
----
 
-Se tiver dúvidas, entre em contato com a equipe de desenvolvimento.
+Se tiver dúvidas, entre em contato com a equipe de desenvolvimento. ❤️🏳️‍🌈
 
-
----
-
-*Desenvolvido com amor pela equipe do App Incluses. ❤️*
 
 
