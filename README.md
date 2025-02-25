@@ -39,7 +39,7 @@ A landing page é responsiva, adaptando-se a diferentes tamanhos de tela e dispo
 
 - **JavaScript** - Foi usada para encaminhar para telas e realizar efeitos especiais no site
 
-  ## Framework utilizado
+### Framework utilizado
   - **Bootstrap** - Um framework de CSS para facilitar o desenvolvimento de layouts responsivos e estilizados.
 
 
@@ -113,6 +113,7 @@ Este projeto está sob a **Licença MIT** - consulte o arquivo `LICENSE` para ma
 ---
 
 Se tiver dúvidas, entre em contato com a equipe de desenvolvimento.
+
 
 ---
 
